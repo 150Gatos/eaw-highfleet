@@ -1,0 +1,180 @@
+equipments = {
+        light_highfleet_equipment = {
+ 		year = 1001
+ 		can_be_produced = {
+ 			NOT = {
+ 			}
+ 		}
+ 		is_archetype = yes
+ 		picture = archetype_light_highfleet_equipment
+ 		is_buildable = no
+ 		is_convertable = yes
+ 		type = armor
+ 		group_by = archetype
+
+ 		interface_category = interface_category_armor
+
+ 		upgrades = {
+ 			tank_reliability_upgrade
+ 			tank_engine_upgrade
+ 			tank_armor_upgrade
+ 			tank_gun_upgrade
+ 		}
+
+
+ 		maximum_speed = 8
+ 		reliability = 0.8
+
+
+ 		defense = 5
+ 		breakthrough = 36
+ 		hardness = 0.9
+ 		armor_value = 60
+
+
+ 		soft_attack = 19
+ 		hard_attack = 14
+ 		ap_attack = 61
+ 		air_attack =0.001
+
+ 		lend_lease_cost = 12
+
+ 		build_cost_ic = 12
+ 		resources = {
+ 			oil = 1
+ 			tungsten = 2
+ 			steel = 2
+ 		}
+ 		fuel_consumption = 3.6
+ 	}
+
+ 	light_highfleet_equipment_0 = {
+ 		year = 1001
+
+ 		archetype = light_highfleet_equipment
+ 		priority = 50
+ 		visual_level = 0
+ 		is_convertable = yes
+
+        can_convert_from = {
+            light_highfleet_equipment_a_0
+            light_highfleet_equipment_b_0
+            light_highfleet_equipment_c_0
+        }
+
+ 	}
+
+
+ 	light_highfleet_equipment_1 = {
+ 		year = 1005
+ 		archetype = light_highfleet_equipment
+ 		parent = light_highfleet_equipment_0
+ 		priority = 50
+ 		visual_level = 1
+ 		is_convertable = yes
+
+ 		can_convert_from = {
+ 			light_highfleet_equipment_0
+            light_highfleet_equipment_a_1
+            light_highfleet_equipment_b_1
+            light_highfleet_equipment_c_1
+ 		}
+
+ 		# Misc Abilities
+ 		maximum_speed = 9
+
+ 		# Defensive Abilities
+ 		defense = 7
+ 		breakthrough = 51
+ 		armor_value = 80
+
+ 		# Offensive Abilities
+ 		soft_attack = 25
+ 		hard_attack = 19
+ 		ap_attack = 81
+ 		air_attack =0.001
+
+ 		build_cost_ic = 13
+ 		resources = {
+ 			oil = 1
+ 			tungsten = 2
+ 			steel = 3
+ 		}
+ 	}
+
+
+ 	light_highfleet_equipment_2 = {
+ 		year = 1009
+
+ 		archetype = light_highfleet_equipment
+ 		parent = light_highfleet_equipment_1
+ 		priority = 50
+ 		visual_level = 2
+ 		is_convertable = yes
+
+ 		can_convert_from = {
+ 			light_highfleet_equipment_1
+            light_highfleet_equipment_a_2
+            light_highfleet_equipment_b_2
+            light_highfleet_equipment_c_2
+ 		}
+
+ 		# Misc Abilities
+ 		maximum_speed = 10
+
+ 		# Defensive Abilities
+ 		defense = 9
+ 		breakthrough = 66
+ 		armor_value = 90
+
+ 		# Offensive Abilities
+ 		soft_attack = 32
+ 		hard_attack = 24
+ 		ap_attack = 91
+ 		air_attack =0.001
+
+ 		build_cost_ic = 14
+ 		resources = {
+ 			oil = 2
+ 			tungsten = 2
+ 			steel = 4
+ 		}
+ 	}
+     	light_highfleet_equipment_3 = {
+ 		year = 1012
+
+ 		archetype = light_highfleet_equipment
+ 		parent = light_highfleet_equipment_2
+ 		priority = 50
+ 		visual_level = 3
+ 		is_convertable = yes
+
+ 		can_convert_from = {
+ 			light_highfleet_equipment_2
+            light_highfleet_equipment_a_3
+            light_highfleet_equipment_b_3
+            light_highfleet_equipment_c_3
+ 		}
+
+ 		# Misc Abilities
+ 		maximum_speed = 10
+
+ 		# Defensive Abilities
+ 		defense = 9
+ 		breakthrough = 66
+ 		armor_value = 90
+
+ 		# Offensive Abilities
+ 		soft_attack = 32
+ 		hard_attack = 24
+ 		ap_attack = 91
+ 		air_attack =0.001
+
+ 		build_cost_ic = 14
+ 		resources = {
+ 			oil = 2
+ 			tungsten = 2
+ 			steel = 4
+ 		}
+ 	}
+}
