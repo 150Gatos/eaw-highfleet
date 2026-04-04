@@ -1,0 +1,68 @@
+###################################################
+# Airship Designer Localisation
+# Place in: localisation/english/airship_designer_l_english.yml
+# Encoding must be UTF-8 BOM
+###################################################
+
+ l_english:
+
+ # Window
+ AIRSHIP_DESIGNER_TITLE:0 "Airship Designer"
+ AIRSHIP_DESIGNER_OPEN:0 "Airship Designer"
+ AIRSHIP_DESIGNER_CONFIRM:0 "Confirm Design"
+ AIRSHIP_DESIGNER_STATS:0 "Design Statistics"
+ AIRSHIP_DEFAULT_NAME:0 "New Airship Design"
+
+ # Hull classes
+ AIRSHIP_HULL_LIGHT:0 "Light"
+ AIRSHIP_HULL_MEDIUM:0 "Medium"
+ AIRSHIP_HULL_HEAVY:0 "Heavy"
+
+ # Slot names
+ AIRSHIP_SLOT_MAIN_GUN:0 "Main Armament"
+ AIRSHIP_SLOT_SECONDARY:0 "Secondary Armament"
+ AIRSHIP_SLOT_ENGINE:0 "Propulsion"
+ AIRSHIP_SLOT_ARMOR:0 "Hull Plating"
+ AIRSHIP_SLOT_LIFT:0 "Lift System"
+ AIRSHIP_SLOT_NAVIGATION:0 "Navigation"
+ AIRSHIP_SLOT_AA:0 "Anti-Air Mount"
+ AIRSHIP_SLOT_CREW:0 "Crew Quarters"
+ AIRSHIP_SLOT_SPECIAL:0 "Special Equipment"
+ AIRSHIP_SLOT_AUXILIARY:0 "Auxiliary Systems"
+
+ # Stat labels
+ STAT_SOFT_ATTACK:0 "Soft Attack"
+ STAT_HARD_ATTACK:0 "Hard Attack"
+ STAT_AIR_ATTACK:0 "Air Attack"
+ STAT_DEFENSE:0 "Defense"
+ STAT_SPEED:0 "Speed"
+ STAT_BUILD_COST:0 "Production Cost"
+ STAT_RELIABILITY:0 "Reliability"
+
+ # Module names
+ airship_light_battery:0 "Light Battery"
+ airship_heavy_battery:0 "Heavy Battery"
+ airship_secondary_guns:0 "Secondary Guns"
+ airship_steam_engine:0 "Steam Engine"
+ airship_aetheric_engine:0 "Aetheric Engine"
+ airship_light_plating:0 "Light Plating"
+ airship_heavy_plating:0 "Heavy Plating"
+ airship_gas_bags:0 "Gas Bags"
+ airship_aetheric_lift:0 "Aetheric Lift"
+ airship_basic_navigation:0 "Basic Navigation"
+ airship_advanced_navigation:0 "Advanced Navigation"
+ airship_aa_battery:0 "AA Battery"
+ airship_standard_crew:0 "Standard Crew"
+ airship_elite_crew:0 "Elite Crew"
+ airship_bombing_bay:0 "Bombing Bay"
+ airship_signal_tower:0 "Signal Tower"
+ airship_fuel_tanks:0 "Fuel Tanks"
+ airship_repair_bay:0 "Repair Bay"
+
+ # Module descriptions
+ airship_light_battery_desc:0 "A standard battery of light cannons mounted on the hull."
+ airship_heavy_battery_desc:0 "Heavy siege guns capable of engaging fortified targets."
+ airship_steam_engine_desc:0 "A reliable coal-fired steam engine."
+ airship_aetheric_engine_desc:0 "An advanced aetheric propulsion system. Faster and more efficient than steam."
+ airship_gas_bags_desc:0 "Standard gas-filled lift bladders."
+ airship_aetheric_lift_desc:0 "Aetheric lift crystals providing superior buoyancy."

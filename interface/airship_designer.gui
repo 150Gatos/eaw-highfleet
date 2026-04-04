@@ -1,0 +1,566 @@
+###################################################
+# Airship Designer Window
+# Place in: interface/airship_designer.gui
+###################################################
+
+guiTypes = {
+
+    # ── Main Designer Window ──────────────────────────────────────────────────
+    containerWindowType = {
+        name = "airship_designer_window"
+        position = { x = 0 y = 0 }
+        size = { width = 960 height = 780 }
+        moveable = yes
+        horizontalScrollbar = no
+        verticalScrollbar = no
+        dontRender = no
+        background = {
+            name = "background"
+            spriteType = "GFX_airship_designer_bg"  # define in a .gfx file or reuse GFX_tank_designer_bg
+        }
+
+        # ── Title Bar ─────────────────────────────────────────────────────────
+        instantTextboxType = {
+            name = "airship_designer_title"
+            position = { x = 20 y = 15 }
+            font = "hoi_20b"
+            text = "AIRSHIP_DESIGNER_TITLE"  # define in localisation
+            maxWidth = 400
+            maxHeight = 30
+        }
+
+        # ── Close Button ──────────────────────────────────────────────────────
+        buttonType = {
+            name = "close_button"
+            position = { x = 920 y = 10 }
+            size = { width = 30 height = 30 }
+            spriteType = "GFX_close_button"
+            clickSound = "click_close"
+            pdxmesh = no
+        }
+
+        # ── Hull Class Selector (light / medium / heavy) ──────────────────────
+        containerWindowType = {
+            name = "hull_selector"
+            position = { x = 20 y = 50 }
+            size = { width = 920 height = 60 }
+
+            buttonType = {
+                name = "select_light_hull"
+                position = { x = 0 y = 0 }
+                size = { width = 120 height = 50 }
+                spriteType = "GFX_airship_hull_light_btn"
+                buttonFont = "hoi_18b"
+                text = "AIRSHIP_HULL_LIGHT"
+                clickSound = "click_select"
+            }
+
+            buttonType = {
+                name = "select_medium_hull"
+                position = { x = 130 y = 0 }
+                size = { width = 120 height = 50 }
+                spriteType = "GFX_airship_hull_medium_btn"
+                buttonFont = "hoi_18b"
+                text = "AIRSHIP_HULL_MEDIUM"
+                clickSound = "click_select"
+            }
+
+            buttonType = {
+                name = "select_heavy_hull"
+                position = { x = 260 y = 0 }
+                size = { width = 120 height = 50 }
+                spriteType = "GFX_airship_hull_heavy_btn"
+                buttonFont = "hoi_18b"
+                text = "AIRSHIP_HULL_HEAVY"
+                clickSound = "click_select"
+            }
+        }
+
+        # ── Module Slots Panel ────────────────────────────────────────────────
+        # Each slot is a button that opens a module picker
+        # Slots are laid out in a 2-column grid to fit 10+
+        containerWindowType = {
+            name = "module_slots_panel"
+            position = { x = 20 y = 120 }
+            size = { width = 600 height = 580 }
+
+            background = {
+                name = "slots_bg"
+                spriteType = "GFX_designer_slots_bg"  # reuse vanilla or define custom
+            }
+
+            # ── Slot Template (repeat for each slot, adjust name/position) ────
+            # SLOT 1 - Main Gun
+            containerWindowType = {
+                name = "slot_main_gun"
+                position = { x = 10 y = 10 }
+                size = { width = 270 height = 80 }
+
+                buttonType = {
+                    name = "slot_main_gun_button"
+                    position = { x = 0 y = 0 }
+                    size = { width = 270 height = 80 }
+                    spriteType = "GFX_designer_module_slot_bg"
+                    clickSound = "click_select"
+                }
+                instantTextboxType = {
+                    name = "slot_main_gun_label"
+                    position = { x = 5 y = 5 }
+                    font = "hoi_14"
+                    text = "AIRSHIP_SLOT_MAIN_GUN"
+                    maxWidth = 260
+                    maxHeight = 20
+                }
+                # Icon of currently equipped module
+                iconType = {
+                    name = "slot_main_gun_icon"
+                    position = { x = 10 y = 25 }
+                    spriteType = "GFX_module_empty_slot"
+                }
+                # Module name text
+                instantTextboxType = {
+                    name = "slot_main_gun_module_name"
+                    position = { x = 70 y = 30 }
+                    font = "hoi_14"
+                    text = ""
+                    maxWidth = 190
+                    maxHeight = 20
+                }
+            }
+
+            # SLOT 2 - Secondary Armament
+            containerWindowType = {
+                name = "slot_secondary"
+                position = { x = 290 y = 10 }
+                size = { width = 270 height = 80 }
+
+                buttonType = {
+                    name = "slot_secondary_button"
+                    position = { x = 0 y = 0 }
+                    size = { width = 270 height = 80 }
+                    spriteType = "GFX_designer_module_slot_bg"
+                    clickSound = "click_select"
+                }
+                instantTextboxType = {
+                    name = "slot_secondary_label"
+                    position = { x = 5 y = 5 }
+                    font = "hoi_14"
+                    text = "AIRSHIP_SLOT_SECONDARY"
+                    maxWidth = 260
+                    maxHeight = 20
+                }
+                iconType = {
+                    name = "slot_secondary_icon"
+                    position = { x = 10 y = 25 }
+                    spriteType = "GFX_module_empty_slot"
+                }
+            }
+
+            # SLOT 3 - Engine
+            containerWindowType = {
+                name = "slot_engine"
+                position = { x = 10 y = 100 }
+                size = { width = 270 height = 80 }
+
+                buttonType = {
+                    name = "slot_engine_button"
+                    position = { x = 0 y = 0 }
+                    size = { width = 270 height = 80 }
+                    spriteType = "GFX_designer_module_slot_bg"
+                    clickSound = "click_select"
+                }
+                instantTextboxType = {
+                    name = "slot_engine_label"
+                    position = { x = 5 y = 5 }
+                    font = "hoi_14"
+                    text = "AIRSHIP_SLOT_ENGINE"
+                    maxWidth = 260
+                    maxHeight = 20
+                }
+                iconType = {
+                    name = "slot_engine_icon"
+                    position = { x = 10 y = 25 }
+                    spriteType = "GFX_module_empty_slot"
+                }
+            }
+
+            # SLOT 4 - Armor Plating
+            containerWindowType = {
+                name = "slot_armor"
+                position = { x = 290 y = 100 }
+                size = { width = 270 height = 80 }
+
+                buttonType = {
+                    name = "slot_armor_button"
+                    position = { x = 0 y = 0 }
+                    size = { width = 270 height = 80 }
+                    spriteType = "GFX_designer_module_slot_bg"
+                    clickSound = "click_select"
+                }
+                instantTextboxType = {
+                    name = "slot_armor_label"
+                    position = { x = 5 y = 5 }
+                    font = "hoi_14"
+                    text = "AIRSHIP_SLOT_ARMOR"
+                    maxWidth = 260
+                    maxHeight = 20
+                }
+                iconType = {
+                    name = "slot_armor_icon"
+                    position = { x = 10 y = 25 }
+                    spriteType = "GFX_module_empty_slot"
+                }
+            }
+
+            # SLOT 5 - Lift System
+            containerWindowType = {
+                name = "slot_lift"
+                position = { x = 10 y = 190 }
+                size = { width = 270 height = 80 }
+
+                buttonType = {
+                    name = "slot_lift_button"
+                    position = { x = 0 y = 0 }
+                    size = { width = 270 height = 80 }
+                    spriteType = "GFX_designer_module_slot_bg"
+                    clickSound = "click_select"
+                }
+                instantTextboxType = {
+                    name = "slot_lift_label"
+                    position = { x = 5 y = 5 }
+                    font = "hoi_14"
+                    text = "AIRSHIP_SLOT_LIFT"
+                    maxWidth = 260
+                    maxHeight = 20
+                }
+                iconType = {
+                    name = "slot_lift_icon"
+                    position = { x = 10 y = 25 }
+                    spriteType = "GFX_module_empty_slot"
+                }
+            }
+
+            # SLOT 6 - Navigation
+            containerWindowType = {
+                name = "slot_navigation"
+                position = { x = 290 y = 190 }
+                size = { width = 270 height = 80 }
+
+                buttonType = {
+                    name = "slot_navigation_button"
+                    position = { x = 0 y = 0 }
+                    size = { width = 270 height = 80 }
+                    spriteType = "GFX_designer_module_slot_bg"
+                    clickSound = "click_select"
+                }
+                instantTextboxType = {
+                    name = "slot_navigation_label"
+                    position = { x = 5 y = 5 }
+                    font = "hoi_14"
+                    text = "AIRSHIP_SLOT_NAVIGATION"
+                    maxWidth = 260
+                    maxHeight = 20
+                }
+                iconType = {
+                    name = "slot_navigation_icon"
+                    position = { x = 10 y = 25 }
+                    spriteType = "GFX_module_empty_slot"
+                }
+            }
+
+            # SLOT 7 - Anti-Air Mount
+            containerWindowType = {
+                name = "slot_aa"
+                position = { x = 10 y = 280 }
+                size = { width = 270 height = 80 }
+
+                buttonType = {
+                    name = "slot_aa_button"
+                    position = { x = 0 y = 0 }
+                    size = { width = 270 height = 80 }
+                    spriteType = "GFX_designer_module_slot_bg"
+                    clickSound = "click_select"
+                }
+                instantTextboxType = {
+                    name = "slot_aa_label"
+                    position = { x = 5 y = 5 }
+                    font = "hoi_14"
+                    text = "AIRSHIP_SLOT_AA"
+                    maxWidth = 260
+                    maxHeight = 20
+                }
+                iconType = {
+                    name = "slot_aa_icon"
+                    position = { x = 10 y = 25 }
+                    spriteType = "GFX_module_empty_slot"
+                }
+            }
+
+            # SLOT 8 - Crew Quarters
+            containerWindowType = {
+                name = "slot_crew"
+                position = { x = 290 y = 280 }
+                size = { width = 270 height = 80 }
+
+                buttonType = {
+                    name = "slot_crew_button"
+                    position = { x = 0 y = 0 }
+                    size = { width = 270 height = 80 }
+                    spriteType = "GFX_designer_module_slot_bg"
+                    clickSound = "click_select"
+                }
+                instantTextboxType = {
+                    name = "slot_crew_label"
+                    position = { x = 5 y = 5 }
+                    font = "hoi_14"
+                    text = "AIRSHIP_SLOT_CREW"
+                    maxWidth = 260
+                    maxHeight = 20
+                }
+                iconType = {
+                    name = "slot_crew_icon"
+                    position = { x = 10 y = 25 }
+                    spriteType = "GFX_module_empty_slot"
+                }
+            }
+
+            # SLOT 9 - Special Equipment
+            containerWindowType = {
+                name = "slot_special"
+                position = { x = 10 y = 370 }
+                size = { width = 270 height = 80 }
+
+                buttonType = {
+                    name = "slot_special_button"
+                    position = { x = 0 y = 0 }
+                    size = { width = 270 height = 80 }
+                    spriteType = "GFX_designer_module_slot_bg"
+                    clickSound = "click_select"
+                }
+                instantTextboxType = {
+                    name = "slot_special_label"
+                    position = { x = 5 y = 5 }
+                    font = "hoi_14"
+                    text = "AIRSHIP_SLOT_SPECIAL"
+                    maxWidth = 260
+                    maxHeight = 20
+                }
+                iconType = {
+                    name = "slot_special_icon"
+                    position = { x = 10 y = 25 }
+                    spriteType = "GFX_module_empty_slot"
+                }
+            }
+
+            # SLOT 10 - Auxiliary
+            containerWindowType = {
+                name = "slot_auxiliary"
+                position = { x = 290 y = 370 }
+                size = { width = 270 height = 80 }
+
+                buttonType = {
+                    name = "slot_auxiliary_button"
+                    position = { x = 0 y = 0 }
+                    size = { width = 270 height = 80 }
+                    spriteType = "GFX_designer_module_slot_bg"
+                    clickSound = "click_select"
+                }
+                instantTextboxType = {
+                    name = "slot_auxiliary_label"
+                    position = { x = 5 y = 5 }
+                    font = "hoi_14"
+                    text = "AIRSHIP_SLOT_AUXILIARY"
+                    maxWidth = 260
+                    maxHeight = 20
+                }
+                iconType = {
+                    name = "slot_auxiliary_icon"
+                    position = { x = 10 y = 25 }
+                    spriteType = "GFX_module_empty_slot"
+                }
+            }
+
+            # Add more slots here following the same pattern,
+            # incrementing y by 90 for each new row
+        }
+
+        # ── Stats Preview Panel ───────────────────────────────────────────────
+        containerWindowType = {
+            name = "stats_panel"
+            position = { x = 640 y = 120 }
+            size = { width = 300 height = 580 }
+
+            background = {
+                name = "stats_bg"
+                spriteType = "GFX_designer_stats_bg"
+            }
+
+            instantTextboxType = {
+                name = "stats_title"
+                position = { x = 10 y = 10 }
+                font = "hoi_16b"
+                text = "AIRSHIP_DESIGNER_STATS"
+                maxWidth = 280
+                maxHeight = 25
+            }
+
+            # Stat rows - one per relevant stat
+            # soft_attack
+            instantTextboxType = {
+                name = "stat_soft_attack_label"
+                position = { x = 10 y = 45 }
+                font = "hoi_14"
+                text = "STAT_SOFT_ATTACK"
+                maxWidth = 180
+                maxHeight = 20
+            }
+            instantTextboxType = {
+                name = "stat_soft_attack_value"
+                position = { x = 220 y = 45 }
+                font = "hoi_14b"
+                text = "0"
+                maxWidth = 70
+                maxHeight = 20
+            }
+
+            # hard_attack
+            instantTextboxType = {
+                name = "stat_hard_attack_label"
+                position = { x = 10 y = 70 }
+                font = "hoi_14"
+                text = "STAT_HARD_ATTACK"
+                maxWidth = 180
+                maxHeight = 20
+            }
+            instantTextboxType = {
+                name = "stat_hard_attack_value"
+                position = { x = 220 y = 70 }
+                font = "hoi_14b"
+                text = "0"
+                maxWidth = 70
+                maxHeight = 20
+            }
+
+            # air_attack
+            instantTextboxType = {
+                name = "stat_air_attack_label"
+                position = { x = 10 y = 95 }
+                font = "hoi_14"
+                text = "STAT_AIR_ATTACK"
+                maxWidth = 180
+                maxHeight = 20
+            }
+            instantTextboxType = {
+                name = "stat_air_attack_value"
+                position = { x = 220 y = 95 }
+                font = "hoi_14b"
+                text = "0"
+                maxWidth = 70
+                maxHeight = 20
+            }
+
+            # defense
+            instantTextboxType = {
+                name = "stat_defense_label"
+                position = { x = 10 y = 120 }
+                font = "hoi_14"
+                text = "STAT_DEFENSE"
+                maxWidth = 180
+                maxHeight = 20
+            }
+            instantTextboxType = {
+                name = "stat_defense_value"
+                position = { x = 220 y = 120 }
+                font = "hoi_14b"
+                text = "0"
+                maxWidth = 70
+                maxHeight = 20
+            }
+
+            # maximum_speed
+            instantTextboxType = {
+                name = "stat_speed_label"
+                position = { x = 10 y = 145 }
+                font = "hoi_14"
+                text = "STAT_SPEED"
+                maxWidth = 180
+                maxHeight = 20
+            }
+            instantTextboxType = {
+                name = "stat_speed_value"
+                position = { x = 220 y = 145 }
+                font = "hoi_14b"
+                text = "0"
+                maxWidth = 70
+                maxHeight = 20
+            }
+
+            # build_cost_ic
+            instantTextboxType = {
+                name = "stat_cost_label"
+                position = { x = 10 y = 170 }
+                font = "hoi_14"
+                text = "STAT_BUILD_COST"
+                maxWidth = 180
+                maxHeight = 20
+            }
+            instantTextboxType = {
+                name = "stat_cost_value"
+                position = { x = 220 y = 170 }
+                font = "hoi_14b"
+                text = "0"
+                maxWidth = 70
+                maxHeight = 20
+            }
+
+            # reliability
+            instantTextboxType = {
+                name = "stat_reliability_label"
+                position = { x = 10 y = 195 }
+                font = "hoi_14"
+                text = "STAT_RELIABILITY"
+                maxWidth = 180
+                maxHeight = 20
+            }
+            instantTextboxType = {
+                name = "stat_reliability_value"
+                position = { x = 220 y = 195 }
+                font = "hoi_14b"
+                text = "0"
+                maxWidth = 70
+                maxHeight = 20
+            }
+
+            # ── Design Name & Confirm ─────────────────────────────────────────
+            editBoxType = {
+                name = "design_name_input"
+                position = { x = 10 y = 480 }
+                size = { width = 280 height = 30 }
+                font = "hoi_14"
+                text = "AIRSHIP_DEFAULT_NAME"
+                maxLength = 40
+            }
+
+            buttonType = {
+                name = "confirm_design_button"
+                position = { x = 10 y = 520 }
+                size = { width = 280 height = 40 }
+                spriteType = "GFX_button_confirm"
+                buttonFont = "hoi_16b"
+                text = "AIRSHIP_DESIGNER_CONFIRM"
+                clickSound = "click_confirm"
+            }
+        }
+    }
+
+    # ── Open Button (add this wherever suits your UI, e.g. the army view) ────
+    buttonType = {
+        name = "open_airship_designer_button"
+        position = { x = 0 y = 0 }   # position this wherever you hook it in
+        size = { width = 150 height = 40 }
+        spriteType = "GFX_airship_designer_btn"
+        buttonFont = "hoi_16b"
+        text = "AIRSHIP_DESIGNER_OPEN"
+        clickSound = "click_select"
+    }
+}

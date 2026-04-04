@@ -1,0 +1,87 @@
+###################################################
+# Airship Designer Sprites
+# Place in: interface/airship_designer.gfx
+###################################################
+
+spriteTypes = {
+
+    # ── Window Background ─────────────────────────────────────────────────────
+    # Reuse the tank designer background or point to your own texture
+    spriteType = {
+        name = "GFX_airship_designer_bg"
+        textureFile = "gfx/interface/airship_designer/designer_bg.dds"
+        # Alternatively reuse vanilla: textureFile = "gfx/interface/tank_designer/designer_bg.dds"
+    }
+
+    # ── Hull Selector Buttons ─────────────────────────────────────────────────
+    spriteType = {
+        name = "GFX_airship_hull_light_btn"
+        textureFile = "gfx/interface/airship_designer/hull_light_btn.dds"
+        noOfFrames = 2  # frame 1 = normal, frame 2 = selected/hover
+    }
+
+    spriteType = {
+        name = "GFX_airship_hull_medium_btn"
+        textureFile = "gfx/interface/airship_designer/hull_medium_btn.dds"
+        noOfFrames = 2
+    }
+
+    spriteType = {
+        name = "GFX_airship_hull_heavy_btn"
+        textureFile = "gfx/interface/airship_designer/hull_heavy_btn.dds"
+        noOfFrames = 2
+    }
+
+    # ── Open Designer Button ──────────────────────────────────────────────────
+    spriteType = {
+        name = "GFX_airship_designer_btn"
+        textureFile = "gfx/interface/airship_designer/open_designer_btn.dds"
+        noOfFrames = 2
+    }
+
+    # ── Module Slot Background ────────────────────────────────────────────────
+    # Reuse vanilla slot background or define your own
+    spriteType = {
+        name = "GFX_designer_module_slot_bg"
+        textureFile = "gfx/interface/tank_designer/module_slot_bg.dds"
+        # Or your own: textureFile = "gfx/interface/airship_designer/module_slot_bg.dds"
+        noOfFrames = 2  # normal, hover
+    }
+
+    # ── Slots Panel Background ────────────────────────────────────────────────
+    spriteType = {
+        name = "GFX_designer_slots_bg"
+        textureFile = "gfx/interface/tank_designer/slots_panel_bg.dds"
+    }
+
+    # ── Stats Panel Background ────────────────────────────────────────────────
+    spriteType = {
+        name = "GFX_designer_stats_bg"
+        textureFile = "gfx/interface/tank_designer/stats_panel_bg.dds"
+    }
+
+    # ── Empty Slot Icon ───────────────────────────────────────────────────────
+    spriteType = {
+        name = "GFX_module_empty_slot"
+        textureFile = "gfx/interface/tank_designer/empty_slot_icon.dds"
+    }
+
+    # ── Module Icons ──────────────────────────────────────────────────────────
+    # One per module you define — name must match what the module references
+    spriteType = {
+        name = "GFX_module_airship_main_gun"
+        textureFile = "gfx/interface/airship_designer/modules/main_gun.dds"
+    }
+
+    spriteType = {
+        name = "GFX_module_airship_engine"
+        textureFile = "gfx/interface/airship_designer/modules/engine.dds"
+    }
+
+    spriteType = {
+        name = "GFX_module_airship_armor"
+        textureFile = "gfx/interface/airship_designer/modules/armor.dds"
+    }
+
+    # Add one entry per module following the same pattern
+}

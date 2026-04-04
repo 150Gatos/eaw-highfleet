@@ -1,0 +1,184 @@
+###################################################
+# Airship Equipment with Module Slots
+# Shows how to wire module_slots and default_modules
+# into your existing airship equipment archetypes
+###################################################
+
+# Add module_slots and default_modules to your existing archetypes.
+# This is a snippet showing what to add — merge into your existing files.
+
+# ── LIGHT AIRSHIP ─────────────────────────────────────────────────────────────
+
+# In light_highfleet.txt, add to light_highfleet_equipment archetype:
+#
+#   module_slots = {
+#       main_armament_slot = {
+#           required = yes
+#           allowed_module_categories = { airship_main_gun_slot }
+#       }
+#       secondary_slot = {
+#           required = no
+#           allowed_module_categories = { airship_secondary_slot }
+#       }
+#       engine_slot = {
+#           required = yes
+#           allowed_module_categories = { airship_engine_slot }
+#       }
+#       armor_slot = {
+#           required = yes
+#           allowed_module_categories = { airship_armor_slot }
+#       }
+#       lift_slot = {
+#           required = yes
+#           allowed_module_categories = { airship_lift_slot }
+#       }
+#       navigation_slot = {
+#           required = no
+#           allowed_module_categories = { airship_navigation_slot }
+#       }
+#       aa_slot = {
+#           required = no
+#           allowed_module_categories = { airship_aa_slot }
+#       }
+#       crew_slot = {
+#           required = yes
+#           allowed_module_categories = { airship_crew_slot }
+#       }
+#       special_slot = {
+#           required = no
+#           allowed_module_categories = { airship_special_slot }
+#       }
+#       auxiliary_slot = {
+#           required = no
+#           allowed_module_categories = { airship_auxiliary_slot }
+#       }
+#   }
+
+# ── DEFAULT MODULES on each variant ───────────────────────────────────────────
+
+# In light_highfleet.txt, add to light_highfleet_equipment_0:
+#
+#   default_modules = {
+#       main_armament_slot  = airship_light_battery
+#       engine_slot         = airship_steam_engine
+#       armor_slot          = airship_light_plating
+#       lift_slot           = airship_gas_bags
+#       crew_slot           = airship_standard_crew
+#       # optional slots left empty — just omit them
+#   }
+
+# light_highfleet_equipment_1:
+#   default_modules = {
+#       main_armament_slot  = airship_light_battery
+#       engine_slot         = airship_steam_engine
+#       armor_slot          = airship_light_plating
+#       lift_slot           = airship_gas_bags
+#       crew_slot           = airship_standard_crew
+#       navigation_slot     = airship_basic_navigation
+#   }
+
+# light_highfleet_equipment_2:
+#   default_modules = {
+#       main_armament_slot  = airship_heavy_battery
+#       engine_slot         = airship_aetheric_engine
+#       armor_slot          = airship_heavy_plating
+#       lift_slot           = airship_aetheric_lift
+#       crew_slot           = airship_elite_crew
+#       navigation_slot     = airship_advanced_navigation
+#       aa_slot             = airship_aa_battery
+#   }
+
+# ── MEDIUM AIRSHIP ────────────────────────────────────────────────────────────
+
+# medium_highfleet_equipment archetype gets the same module_slots block.
+# Medium can have more required slots since it's a larger hull:
+#
+#   module_slots = {
+#       main_armament_slot = {
+#           required = yes
+#           allowed_module_categories = { airship_main_gun_slot }
+#       }
+#       secondary_slot = {
+#           required = yes           # medium requires secondary unlike light
+#           allowed_module_categories = { airship_secondary_slot }
+#       }
+#       engine_slot = {
+#           required = yes
+#           allowed_module_categories = { airship_engine_slot }
+#       }
+#       armor_slot = {
+#           required = yes
+#           allowed_module_categories = { airship_armor_slot }
+#       }
+#       lift_slot = {
+#           required = yes
+#           allowed_module_categories = { airship_lift_slot }
+#       }
+#       navigation_slot = {
+#           required = yes
+#           allowed_module_categories = { airship_navigation_slot }
+#       }
+#       aa_slot = {
+#           required = no
+#           allowed_module_categories = { airship_aa_slot }
+#       }
+#       crew_slot = {
+#           required = yes
+#           allowed_module_categories = { airship_crew_slot }
+#       }
+#       special_slot = {
+#           required = no
+#           allowed_module_categories = { airship_special_slot }
+#       }
+#       auxiliary_slot = {
+#           required = no
+#           allowed_module_categories = { airship_auxiliary_slot }
+#       }
+#   }
+
+# ── HEAVY AIRSHIP ─────────────────────────────────────────────────────────────
+
+# heavy_highfleet_equipment archetype — all slots required, heaviest defaults:
+#
+#   module_slots = {
+#       main_armament_slot = {
+#           required = yes
+#           allowed_module_categories = { airship_main_gun_slot }
+#       }
+#       secondary_slot = {
+#           required = yes
+#           allowed_module_categories = { airship_secondary_slot }
+#       }
+#       engine_slot = {
+#           required = yes
+#           allowed_module_categories = { airship_engine_slot }
+#       }
+#       armor_slot = {
+#           required = yes
+#           allowed_module_categories = { airship_armor_slot }
+#       }
+#       lift_slot = {
+#           required = yes
+#           allowed_module_categories = { airship_lift_slot }
+#       }
+#       navigation_slot = {
+#           required = yes
+#           allowed_module_categories = { airship_navigation_slot }
+#       }
+#       aa_slot = {
+#           required = yes
+#           allowed_module_categories = { airship_aa_slot }
+#       }
+#       crew_slot = {
+#           required = yes
+#           allowed_module_categories = { airship_crew_slot }
+#       }
+#       special_slot = {
+#           required = no
+#           allowed_module_categories = { airship_special_slot }
+#       }
+#       auxiliary_slot = {
+#           required = yes
+#           allowed_module_categories = { airship_auxiliary_slot }
+#       }
+#   }
