@@ -1,0 +1,379 @@
+technologies = {
+    early_light_highfleet = {
+        research_cost = 2
+        start_year = 1004
+        prerequisites = { storm_age_highfleet }
+        enable_equipments = {
+            early_light_highfleet_equipment
+        }
+        enable_subunits = {
+            light_airship_fleet      # Battalion
+            light_airship_detachment # Support battalion
+            light_airship_recon      # Support battalion
+        }
+        path = {
+            leads_to_tech = basic_light_highfleet
+            research_cost_coeff = 1
+        }
+        sub_technologies = {
+            early_light_highfleet_td
+            early_light_highfleet_artillery
+            early_light_highfleet_spaa
+        }
+        folder = {
+            name = airship_techs
+            position = { x = -1 y = 4 }
+        }
+        categories = {
+            highfleet_tech
+            airship_equipment
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                is_major = yes
+            }
+        }
+        special_project_specialization = { specialization_land }
+    }
+
+    early_light_highfleet_td = {
+        research_cost = 1
+        start_year = 1004
+        enable_equipments = {
+            early_light_highfleet_td_equipment
+        }
+        categories = {
+            highfleet_tech
+            airship_equipment
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                is_major = yes
+            }
+        }
+        special_project_specialization = { specialization_land }
+    }
+
+    early_light_highfleet_artillery = {
+        research_cost = 1
+        start_year = 1004
+        enable_equipments = {
+            early_light_highfleet_artillery_equipment
+        }
+        categories = {
+            highfleet_tech
+            airship_equipment
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                is_major = yes
+            }
+        }
+        special_project_specialization = { specialization_land }
+    }
+
+    early_light_highfleet_spaa = {
+        research_cost = 1
+        start_year = 1004
+        enable_equipments = {
+            early_light_highfleet_spaa_equipment
+        }
+        categories = {
+            highfleet_tech
+            airship_equipment
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                is_major = yes
+            }
+        }
+        special_project_specialization = { specialization_land }
+    }
+
+    basic_light_highfleet = {
+        research_cost = 2
+        start_year = 1010
+        prerequisites = { early_light_highfleet }
+        enable_equipments = {
+            basic_light_highfleet_equipment
+        }
+        path = {
+            leads_to_tech = advanced_light_highfleet
+            research_cost_coeff = 1
+        }
+        sub_technologies = {
+            basic_light_highfleet_td
+            basic_light_highfleet_artillery
+            basic_light_highfleet_spaa
+        }
+        folder = {
+            name = airship_techs
+            position = { x = -1 y = 6 }
+        }
+        categories = {
+            highfleet_tech
+            airship_equipment
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                is_major = yes
+            }
+        }
+        special_project_specialization = { specialization_land }
+    }
+
+    basic_light_highfleet_td = {
+        research_cost = 1
+        start_year = 1010
+        enable_equipments = {
+            basic_light_highfleet_td_equipment
+        }
+        categories = {
+            highfleet_tech
+            airship_equipment
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                is_major = yes
+            }
+        }
+        special_project_specialization = { specialization_land }
+    }
+
+    basic_light_highfleet_artillery = {
+        research_cost = 1
+        start_year = 1010
+        enable_equipments = {
+            basic_light_highfleet_artillery_equipment
+        }
+        categories = {
+            highfleet_tech
+            airship_equipment
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                is_major = yes
+            }
+        }
+        special_project_specialization = { specialization_land }
+    }
+
+    basic_light_highfleet_spaa = {
+        research_cost = 1
+        start_year = 1010
+        enable_equipments = {
+            basic_light_highfleet_spaa_equipment
+        }
+        categories = {
+            highfleet_tech
+            airship_equipment
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                is_major = yes
+            }
+        }
+        special_project_specialization = { specialization_land }
+    }
+
+    advanced_light_highfleet = {
+        research_cost = 2
+        start_year = 1016
+        prerequisites = { basic_light_highfleet }
+        enable_equipments = {
+            advanced_light_highfleet_equipment
+        }
+        path = {
+            leads_to_tech = modern_light_highfleet
+            research_cost_coeff = 1
+        }
+        sub_technologies = {
+            advanced_light_highfleet_td
+            advanced_light_highfleet_artillery
+            advanced_light_highfleet_spaa
+        }
+        folder = {
+            name = airship_techs
+            position = { x = -1 y = 8 }
+        }
+        categories = {
+            highfleet_tech
+            airship_equipment
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                is_major = yes
+            }
+        }
+        special_project_specialization = { specialization_land }
+    }
+
+    advanced_light_highfleet_td = {
+        research_cost = 1
+        start_year = 1016
+        enable_equipments = {
+            advanced_light_highfleet_td_equipment
+        }
+        categories = {
+            highfleet_tech
+            airship_equipment
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                is_major = yes
+            }
+        }
+        special_project_specialization = { specialization_land }
+    }
+
+    advanced_light_highfleet_artillery = {
+        research_cost = 1
+        start_year = 1016
+        enable_equipments = {
+            advanced_light_highfleet_artillery_equipment
+        }
+        categories = {
+            highfleet_tech
+            airship_equipment
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                is_major = yes
+            }
+        }
+        special_project_specialization = { specialization_land }
+    }
+
+    advanced_light_highfleet_spaa = {
+        research_cost = 1
+        start_year = 1016
+        enable_equipments = {
+            advanced_light_highfleet_spaa_equipment
+        }
+        categories = {
+            highfleet_tech
+            airship_equipment
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                is_major = yes
+            }
+        }
+        special_project_specialization = { specialization_land }
+    }
+
+    modern_light_highfleet = {
+        research_cost = 2
+        start_year = 1022
+        prerequisites = { advanced_light_highfleet }
+        enable_equipments = {
+            modern_light_highfleet_equipment
+        }
+        sub_technologies = {
+            modern_light_highfleet_td
+            modern_light_highfleet_artillery
+            modern_light_highfleet_spaa
+        }
+        folder = {
+            name = airship_techs
+            position = { x = -1 y = 10 }
+        }
+        categories = {
+            highfleet_tech
+            airship_equipment
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                is_major = yes
+            }
+        }
+        special_project_specialization = { specialization_land }
+    }
+
+    modern_light_highfleet_td = {
+        research_cost = 1
+        start_year = 1022
+        enable_equipments = {
+            modern_light_highfleet_td_equipment
+        }
+        categories = {
+            highfleet_tech
+            airship_equipment
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                is_major = yes
+            }
+        }
+        special_project_specialization = { specialization_land }
+    }
+
+    modern_light_highfleet_artillery = {
+        research_cost = 1
+        start_year = 1022
+        enable_equipments = {
+            modern_light_highfleet_artillery_equipment
+        }
+        categories = {
+            highfleet_tech
+            airship_equipment
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                is_major = yes
+            }
+        }
+        special_project_specialization = { specialization_land }
+    }
+
+    modern_light_highfleet_spaa = {
+        research_cost = 1
+        start_year = 1022
+        enable_equipments = {
+            modern_light_highfleet_spaa_equipment
+        }
+        categories = {
+            highfleet_tech
+            airship_equipment
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                is_major = yes
+            }
+        }
+        special_project_specialization = { specialization_land }
+    }
+
+}
