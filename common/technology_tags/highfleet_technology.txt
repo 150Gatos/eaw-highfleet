@@ -36,5 +36,5 @@ technology_categories = {
 	naval_training
 	naval_ammunition
 	fire_control
-	airship_techs
+	high_techs
 }

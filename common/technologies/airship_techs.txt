@@ -1,5 +1,5 @@
 technologies = {
-#Airship_equipment might already be in use by EAW idk might be a problem
+# might already be in use by EAW idk might be a problem
 
 # TIER 1 pre_storm_age
     medium_highfleet_0 = {
@@ -22,12 +22,12 @@ technologies = {
             medium_highfleet_a_0
         }
         folder = {
-            name = airship_techs
+            name = high_techs
             position = { x = 1 y = 0 }
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -50,8 +50,8 @@ technologies = {
             airship_td_detachment   # Support battalion
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -74,8 +74,8 @@ technologies = {
             airship_artillery_detachment   # Support battalion
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -98,8 +98,8 @@ technologies = {
             airship_spaa_detachment   # Support battalion
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -114,7 +114,9 @@ technologies = {
     storm_age_highfleet = {
         research_cost = 2
         start_year = 995
-        prerequisites = { medium_highfleet_0 }
+        prerequisites = { 
+            medium_highfleet_0 
+            }
         enable_equipments = {
             medium_highfleet_equipment_1
         }
@@ -136,12 +138,12 @@ technologies = {
             medium_highfleet_a_1
         }
         folder = {
-            name = airship_techs
+            name = high_techs
             position = { x = 1 y = 2 }
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -160,8 +162,8 @@ technologies = {
             medium_highfleet_equipment_c_1
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -180,8 +182,8 @@ technologies = {
             medium_highfleet_equipment_b_1
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -200,8 +202,8 @@ technologies = {
             medium_highfleet_equipment_a_1
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -237,12 +239,12 @@ technologies = {
             early_light_highfleet_spaa
         }
         folder = {
-            name = airship_techs
+            name = high_techs
             position = { x = -1 y = 4 }
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -261,8 +263,8 @@ technologies = {
             light_highfleet_equipment_c_0
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -281,8 +283,8 @@ technologies = {
             light_highfleet_equipment_b_0
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -301,8 +303,8 @@ technologies = {
             light_highfleet_equipment_a_0
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -331,12 +333,12 @@ technologies = {
             early_medium_highfleet_spaa
         }
         folder = {
-            name = airship_techs
+            name = high_techs
             position = { x = 1 y = 4 }
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -355,8 +357,8 @@ technologies = {
             medium_highfleet_equipment_c_2
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -375,8 +377,8 @@ technologies = {
             medium_highfleet_equipment_b_2
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -395,8 +397,8 @@ technologies = {
             medium_highfleet_equipment_a_2
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -429,12 +431,12 @@ technologies = {
             early_heavy_highfleet_spaa
         }
         folder = {
-            name = airship_techs
+            name = high_techs
             position = { x = 3 y = 4 }
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -453,8 +455,8 @@ technologies = {
             heavy_highfleet_equipment_c_0
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -473,8 +475,8 @@ technologies = {
             heavy_highfleet_equipment_b_0
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -493,8 +495,8 @@ technologies = {
             heavy_highfleet_equipment_a_0
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -525,12 +527,12 @@ technologies = {
             basic_light_highfleet_spaa
         }
         folder = {
-            name = airship_techs
+            name = high_techs
             position = { x = -1 y = 6 }
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -549,8 +551,8 @@ technologies = {
             light_highfleet_equipment_c_1
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -569,8 +571,8 @@ technologies = {
             light_highfleet_equipment_b_1
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -589,8 +591,8 @@ technologies = {
             light_highfleet_equipment_a_1
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -619,12 +621,12 @@ technologies = {
             basic_medium_highfleet_spaa
         }
         folder = {
-            name = airship_techs
+            name = high_techs
             position = { x = 1 y = 6 }
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -643,8 +645,8 @@ technologies = {
             medium_highfleet_equipment_c_3
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -663,8 +665,8 @@ technologies = {
             medium_highfleet_equipment_b_3
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -683,8 +685,8 @@ technologies = {
             medium_highfleet_equipment_a_3
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -713,12 +715,12 @@ technologies = {
             basic_heavy_highfleet_spaa
         }
         folder = {
-            name = airship_techs
+            name = high_techs
             position = { x = 3 y = 6 }
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -737,8 +739,8 @@ technologies = {
             heavy_highfleet_equipment_c_1
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -757,8 +759,8 @@ technologies = {
             heavy_highfleet_equipment_b_1
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -777,8 +779,8 @@ technologies = {
             heavy_highfleet_equipment_a_1
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -809,12 +811,12 @@ technologies = {
             advanced_light_highfleet_spaa
         }
         folder = {
-            name = airship_techs
+            name = high_techs
             position = { x = -1 y = 8 }
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -833,8 +835,8 @@ technologies = {
             light_highfleet_equipment_c_2
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -853,8 +855,8 @@ technologies = {
             light_highfleet_equipment_b_2
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -873,8 +875,8 @@ technologies = {
             light_highfleet_equipment_a_2
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -903,12 +905,12 @@ technologies = {
             advanced_medium_highfleet_spaa
         }
         folder = {
-            name = airship_techs
+            name = high_techs
             position = { x = 1 y = 8 }
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -927,8 +929,8 @@ technologies = {
             medium_highfleet_equipment_c_4
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -947,8 +949,8 @@ technologies = {
             medium_highfleet_equipment_b_4
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -967,8 +969,8 @@ technologies = {
             medium_highfleet_equipment_a_4
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -997,12 +999,12 @@ technologies = {
             advanced_heavy_highfleet_spaa
         }
         folder = {
-            name = airship_techs
+            name = high_techs
             position = { x = 3 y = 8 }
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -1021,8 +1023,8 @@ technologies = {
             heavy_highfleet_equipment_c_2
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -1041,8 +1043,8 @@ technologies = {
             heavy_highfleet_equipment_b_2
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -1061,8 +1063,8 @@ technologies = {
             heavy_highfleet_equipment_a_2
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -1089,12 +1091,12 @@ technologies = {
             modern_light_highfleet_spaa
         }
         folder = {
-            name = airship_techs
+            name = high_techs
             position = { x = -1 y = 10 }
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -1113,8 +1115,8 @@ technologies = {
             light_highfleet_equipment_c_3
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -1133,8 +1135,8 @@ technologies = {
             light_highfleet_equipment_b_3
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -1153,8 +1155,8 @@ technologies = {
             light_highfleet_equipment_a_3
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -1179,12 +1181,12 @@ technologies = {
             modern_medium_highfleet_spaa
         }
         folder = {
-            name = airship_techs
+            name = high_techs
             position = { x = 1 y = 10 }
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -1203,8 +1205,8 @@ technologies = {
             medium_highfleet_equipment_c_5
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -1223,8 +1225,8 @@ technologies = {
             medium_highfleet_equipment_b_5
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -1243,8 +1245,8 @@ technologies = {
             medium_highfleet_equipment_a_5
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -1269,12 +1271,12 @@ technologies = {
             modern_heavy_highfleet_spaa
         }
         folder = {
-            name = airship_techs
+            name = high_techs
             position = { x = 3 y = 10 }
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -1293,8 +1295,8 @@ technologies = {
             heavy_highfleet_equipment_c_3
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -1313,8 +1315,8 @@ technologies = {
             heavy_highfleet_equipment_b_3
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
@@ -1333,8 +1335,8 @@ technologies = {
             heavy_highfleet_equipment_a_3
         }
         categories = {
-            highfleet_tech
-            airship_equipment
+            armor
+            
         }
         ai_will_do = {
             factor = 1
