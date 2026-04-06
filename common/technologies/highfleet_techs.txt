@@ -1,0 +1,1028 @@
+technologies = {
+## Horizontal positions (Y)
+	@light = 3
+    @medium = 5
+	@heavy = 7
+    @superheavy = 9
+    @siege = 11
+    @buildings = 13
+	@l_upgrades = 1
+    @r_upgrades = 15
+## Vertical positions (X)
+    @975 = 0
+	@995 = 2
+	@1005 = 4
+	@1009 = 6
+	@1012 = 8
+	@1014 = 10
+	@1016 = 12
+	@1022 = 14
+
+##light airships
+
+    light_highfleet_0 = {
+
+        enable_equipments = { light_highfleet_equipment_0 }
+        enable_subunits = {
+            light_airship_fleet      
+            light_airship_detachment
+        }
+        path = { leads_to_tech = light_highfleet_1 research_cost_coeff = 1 }
+        sub_technologies = { light_highfleet_a_0 light_highfleet_b_0 light_highfleet_c_0 }
+        research_cost = 1
+        start_year = 1005
+        folder = { name = highfleet_techs position = { x = @1005 y = @light } }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+
+    light_highfleet_1 = {
+
+        enable_equipments = { light_highfleet_equipment_1 }
+        
+        path = { leads_to_tech = light_highfleet_2 research_cost_coeff = 1 }
+        sub_technologies = { light_highfleet_a_1 light_highfleet_b_1 light_highfleet_c_1 }
+        research_cost = 1
+        start_year = 1009
+
+        folder = { name = highfleet_techs position = { x = @1009 y = @light } }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+
+    light_highfleet_2 = {
+
+        enable_equipments = { light_highfleet_equipment_2 }
+        
+        path = { leads_to_tech = light_highfleet_3 research_cost_coeff = 1 }
+        sub_technologies = { light_highfleet_a_2 light_highfleet_b_2 light_highfleet_c_2 }
+        research_cost = 1
+        start_year = 1012
+
+        folder = { name = highfleet_techs position = { x = @1012 y = @light } }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+
+    light_highfleet_3 = {
+
+        enable_equipments = { light_highfleet_equipment_3 }
+        
+        path = { research_cost_coeff = 1 }
+        sub_technologies = { light_highfleet_a_3 light_highfleet_b_3 light_highfleet_c_3 }
+        research_cost = 1
+        start_year = 1014
+
+        folder = { name = highfleet_techs position = { x = @1014 y = @light } }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+##light variants
+
+        light_highfleet_a_0 = {
+
+        enable_equipments = { light_highfleet_equipment_a_0 }
+        enable_subunits = {
+            light_highfleet_spaa_battalion    
+            light_highfleet_spaa_detachment 
+        }
+
+        research_cost = 1
+        start_year = 1005
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+
+    light_highfleet_b_0 = {
+
+        enable_equipments = { light_highfleet_equipment_b_0 }
+        enable_subunits = {
+            light_highfleet_spg_battalion    
+            light_highfleet_spg_detachment 
+        }
+
+        research_cost = 1
+        start_year = 1005
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }   
+
+    light_highfleet_c_0 = {
+
+        enable_equipments = { light_highfleet_equipment_c_0 }
+        enable_subunits = {
+            medium_highfleet_td_battalion    
+            medium_highfleet_td_detachment 
+        }
+
+        research_cost = 1
+        start_year = 1005
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }   
+
+    light_highfleet_a_1 = {
+
+        enable_equipments = { light_highfleet_equipment_a_1 }
+
+        research_cost = 1
+        start_year = 1009
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+
+    light_highfleet_b_1 = {
+
+        enable_equipments = { light_highfleet_equipment_b_1 }
+
+        research_cost = 1
+        start_year = 1009
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }   
+
+    light_highfleet_c_1 = {
+
+        enable_equipments = { light_highfleet_equipment_c_1 }
+
+        research_cost = 1
+        start_year = 1009
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }   
+
+    light_highfleet_a_2 = {
+
+        enable_equipments = { light_highfleet_equipment_a_2 }
+
+        research_cost = 1
+        start_year = 1012
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+
+    light_highfleet_b_2 = {
+
+        enable_equipments = { light_highfleet_equipment_b_2 }
+
+        research_cost = 1
+        start_year = 1012
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }   
+
+    light_highfleet_c_2 = {
+
+        enable_equipments = { light_highfleet_equipment_c_2 }
+
+        research_cost = 1
+        start_year = 1012
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }   
+
+    light_highfleet_a_3 = {
+
+        enable_equipments = { light_highfleet_equipment_a_3 }
+
+        research_cost = 1
+        start_year = 1014
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+
+    light_highfleet_b_3 = {
+
+        enable_equipments = { light_highfleet_equipment_b_3 }
+
+        research_cost = 1
+        start_year = 1012
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }   
+
+    light_highfleet_c_3 = {
+
+        enable_equipments = { light_highfleet_equipment_c_3 }
+
+        research_cost = 1
+        start_year = 1014
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+
+##medium airships
+
+    medium_highfleet_0 = {
+
+        enable_equipments = { medium_highfleet_equipment_0 }
+        enable_subunits = {
+            medium_airship_fleet      
+            medium_airship_detachment
+        }
+        path = { leads_to_tech = medium_highfleet_1 research_cost_coeff = 1 }
+
+        research_cost = 1
+        start_year = 975
+        folder = { name = highfleet_techs position = { x = @975 y = @medium } }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+
+    medium_highfleet_1 = {
+
+        enable_equipments = { medium_highfleet_equipment_1 }
+        
+        path = { leads_to_tech = medium_highfleet_2 research_cost_coeff = 1 }
+
+        research_cost = 1
+        start_year = 975
+
+        folder = { name = highfleet_techs position = { x = @995 y = @medium } }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+
+    medium_highfleet_2 = {
+
+        enable_equipments = { medium_highfleet_equipment_2 }
+        
+        path = { leads_to_tech = medium_highfleet_3 research_cost_coeff = 1 }
+        sub_technologies = { medium_highfleet_a_0 medium_highfleet_b_0 medium_highfleet_c_0 }
+        research_cost = 1
+        start_year = 1005
+
+        folder = { name = highfleet_techs position = { x = @1005 y = @medium } }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+
+    medium_highfleet_3 = {
+
+        enable_equipments = { medium_highfleet_equipment_4 }
+        
+        path = { leads_to_tech = medium_highfleet_3 research_cost_coeff = 1 }
+        sub_technologies = { medium_highfleet_a_1 medium_highfleet_b_1 medium_highfleet_c_1 }
+        research_cost = 1
+        start_year = 1009
+
+        folder = { name = highfleet_techs position = { x = @1009 y = @medium } }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+
+    medium_highfleet_4 = {
+
+        enable_equipments = { medium_highfleet_equipment_5 }
+        
+        path = { leads_to_tech = medium_highfleet_4 research_cost_coeff = 1 }
+        sub_technologies = { medium_highfleet_a_2 medium_highfleet_b_2 medium_highfleet_c_2 }
+        research_cost = 1
+        start_year = 1012
+
+        folder = { name = highfleet_techs position = { x = @1012 y = @medium } }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+
+        
+
+    medium_highfleet_5 = {
+
+        enable_equipments = { medium_highfleet_equipment_5 }
+        
+        path = { research_cost_coeff = 1 }
+        sub_technologies = { medium_highfleet_a_3 medium_highfleet_b_3 medium_highfleet_c_3 }
+        research_cost = 1
+        start_year = 1014
+
+        folder = { name = highfleet_techs position = { x = @1014 y = @medium } }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+
+##medium variants
+
+    medium_highfleet_a_0 = {
+
+        enable_equipments = { medium_highfleet_equipment_a_0 }
+        enable_subunits = {
+            medium_highfleet_spaa_battalion    
+            medium_highfleet_spaa_detachment 
+        }
+
+        research_cost = 1
+        start_year = 1005
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+
+    medium_highfleet_b_0 = {
+
+        enable_equipments = { medium_highfleet_equipment_b_0 }
+        enable_subunits = {
+            medium_highfleet_spg_battalion    
+            medium_highfleet_spg_detachment 
+        }
+
+        research_cost = 1
+        start_year = 1005
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }   
+
+    medium_highfleet_c_0 = {
+
+        enable_equipments = { medium_highfleet_equipment_c_0 }
+        enable_subunits = {
+            medium_highfleet_td_battalion    
+            medium_highfleet_td_detachment 
+        }
+
+        research_cost = 1
+        start_year = 1005
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }   
+
+    medium_highfleet_a_1 = {
+
+        enable_equipments = { medium_highfleet_equipment_a_1 }
+
+        research_cost = 1
+        start_year = 1009
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+
+    medium_highfleet_b_1 = {
+
+        enable_equipments = { medium_highfleet_equipment_b_1 }
+
+        research_cost = 1
+        start_year = 1009
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }   
+
+    medium_highfleet_c_1 = {
+
+        enable_equipments = { medium_highfleet_equipment_c_1 }
+
+        research_cost = 1
+        start_year = 1009
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }   
+
+    medium_highfleet_a_2 = {
+
+        enable_equipments = { medium_highfleet_equipment_a_2 }
+
+        research_cost = 1
+        start_year = 1012
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+
+    medium_highfleet_b_2 = {
+
+        enable_equipments = { medium_highfleet_equipment_b_2 }
+
+        research_cost = 1
+        start_year = 1012
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }   
+
+    medium_highfleet_c_2 = {
+
+        enable_equipments = { medium_highfleet_equipment_c_2 }
+
+        research_cost = 1
+        start_year = 1012
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }   
+
+    medium_highfleet_a_3 = {
+
+        enable_equipments = { medium_highfleet_equipment_a_3 }
+
+        research_cost = 1
+        start_year = 1014
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+
+    medium_highfleet_b_3 = {
+
+        enable_equipments = { medium_highfleet_equipment_b_3 }
+
+        research_cost = 1
+        start_year = 1012
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }   
+
+    medium_highfleet_c_3 = {
+
+        enable_equipments = { medium_highfleet_equipment_c_3 }
+
+        research_cost = 1
+        start_year = 1014
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }   
+
+##heavy airships
+
+    heavy_highfleet_0 = {
+
+        enable_equipments = { heavy_highfleet_equipment_0 }
+        enable_subunits = {
+            heavy_airship_fleet      
+            heavy_airship_detachment
+        }
+        path = { leads_to_tech = heavy_highfleet_1 super_heavy_highfleet_0 research_cost_coeff = 1 }
+        sub_technologies = { heavy_highfleet_a_0 heavy_highfleet_b_0 heavy_highfleet_c_0 }
+        research_cost = 1
+        start_year = 1005
+        folder = { name = highfleet_techs position = { x = @1005 y = @heavy } }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+
+    heavy_highfleet_1 = {
+
+        enable_equipments = { heavy_highfleet_equipment_1 }
+        
+        path = { leads_to_tech = heavy_highfleet_2 research_cost_coeff = 1 }
+        sub_technologies = { heavy_highfleet_a_1 heavy_highfleet_b_1 heavy_highfleet_c_1 }
+        research_cost = 1
+        start_year = 1009
+
+        folder = { name = highfleet_techs position = { x = @1009 y = @heavy } }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+
+    heavy_highfleet_2 = {
+
+        enable_equipments = { heavy_highfleet_equipment_2 }
+        
+        path = { leads_to_tech = heavy_highfleet_3 research_cost_coeff = 1 }
+        sub_technologies = { heavy_highfleet_a_2 heavy_highfleet_b_2 heavy_highfleet_c_2 }
+        research_cost = 1
+        start_year = 1012
+
+        folder = { name = highfleet_techs position = { x = @1012 y = @heavy } }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+
+    heavy_highfleet_3 = {
+
+        enable_equipments = { heavy_highfleet_equipment_3 }
+        
+        path = { research_cost_coeff = 1 }
+        sub_technologies = { heavy_highfleet_a_3 heavy_highfleet_b_3 heavy_highfleet_c_3 }
+        research_cost = 1
+        start_year = 1014
+
+        folder = { name = highfleet_techs position = { x = @1014 y = @heavy } }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+##heavy variants
+
+    heavy_highfleet_a_0 = {
+
+        enable_equipments = { heavy_highfleet_equipment_a_0 }
+        enable_subunits = {
+            heavy_highfleet_spaa_battalion    
+            heavy_highfleet_spaa_detachment 
+        }
+
+        research_cost = 1
+        start_year = 1005
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+
+    heavy_highfleet_b_0 = {
+
+        enable_equipments = { heavy_highfleet_equipment_b_0 }
+        enable_subunits = {
+            heavy_highfleet_spg_battalion    
+            heavy_highfleet_spg_detachment 
+        }
+
+        research_cost = 1
+        start_year = 1005
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }   
+
+    heavy_highfleet_c_0 = {
+
+        enable_equipments = { heavy_highfleet_equipment_c_0 }
+        enable_subunits = {
+            heavy_highfleet_td_battalion    
+            heavy_highfleet_td_detachment 
+        }
+
+        research_cost = 1
+        start_year = 1005
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }   
+
+    heavy_highfleet_a_1 = {
+
+        enable_equipments = { heavy_highfleet_equipment_a_1 }
+
+        research_cost = 1
+        start_year = 1009
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+
+    heavy_highfleet_b_1 = {
+
+        enable_equipments = { heavy_highfleet_equipment_b_1 }
+
+        research_cost = 1
+        start_year = 1009
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }   
+
+    heavy_highfleet_c_1 = {
+
+        enable_equipments = { heavy_highfleet_equipment_c_1 }
+
+        research_cost = 1
+        start_year = 1009
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }   
+
+    heavy_highfleet_a_2 = {
+
+        enable_equipments = { heavy_highfleet_equipment_a_2 }
+
+        research_cost = 1
+        start_year = 1012
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+
+    heavy_highfleet_b_2 = {
+
+        enable_equipments = { heavy_highfleet_equipment_b_2 }
+
+        research_cost = 1
+        start_year = 1012
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }   
+
+    heavy_highfleet_c_2 = {
+
+        enable_equipments = { heavy_highfleet_equipment_c_2 }
+
+        research_cost = 1
+        start_year = 1012
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }   
+
+    heavy_highfleet_a_3 = {
+
+        enable_equipments = { heavy_highfleet_equipment_a_3 }
+
+        research_cost = 1
+        start_year = 1014
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+
+    heavy_highfleet_b_3 = {
+
+        enable_equipments = { heavy_highfleet_equipment_b_3 }
+
+        research_cost = 1
+        start_year = 1012
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }   
+
+    heavy_highfleet_c_3 = {
+
+        enable_equipments = { heavy_highfleet_equipment_c_3 }
+
+        research_cost = 1
+        start_year = 1014
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+
+##superheavy airships
+
+    super_heavy_highfleet_0 = {
+
+        enable_equipments = { super_heavy_highfleet_equipment_0 }
+        enable_subunits = {
+            super_heavy_airship_fleet      
+            super_heavy_airship_detachment
+        }
+        path = { leads_to_tech = super_heavy_highfleet_1 research_cost_coeff = 1 }
+
+        research_cost = 3
+        start_year = 1005
+        folder = { name = highfleet_techs position = { x = @1005 y = @superheavy } }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+
+    super_heavy_highfleet_1 = {
+
+        enable_equipments = { super_heavy_highfleet_equipment_1 }
+
+        path = { leads_to_tech = super_heavy_highfleet_2 research_cost_coeff = 1 }
+
+        research_cost = 2
+        start_year = 1009
+        folder = { name = highfleet_techs position = { x = @1009 y = @superheavy } }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+
+    super_heavy_highfleet_2 = {
+
+        enable_equipments = { super_heavy_highfleet_equipment_2 }
+
+        path = { leads_to_tech = super_heavy_highfleet_3 research_cost_coeff = 1 }
+
+        research_cost = 2
+        start_year = 1014
+        folder = { name = highfleet_techs position = { x = @1014 y = @superheavy } }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+}
