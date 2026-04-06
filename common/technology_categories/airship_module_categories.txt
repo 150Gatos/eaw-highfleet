@@ -1,0 +1,13 @@
+equipment_module_categories = {
+
+    airship_main_gun_slot
+    airship_secondary_slot
+    airship_engine_slot
+    airship_armor_slot
+    airship_lift_slot
+    airship_navigation_slot
+    airship_aa_slot
+    airship_crew_slot
+    airship_special_slot
+    airship_auxiliary_slot
+}

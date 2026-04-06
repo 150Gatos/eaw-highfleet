@@ -1,0 +1,12 @@
+
+
+technology_categories = {
+
+    highfleet_tech = {
+    }
+
+  
+    airship_equipment = {
+    }
+
+}

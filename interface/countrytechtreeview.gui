@@ -6149,7 +6149,6 @@ guiTypes = {
 				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 
-			## Background + subtitles (scrolls with content) ##
 			containerWindowType = {
 				name = "techtree_stripes"
 				position = { x= 0 y= 0 }
@@ -6163,56 +6162,14 @@ guiTypes = {
 					name = "Background"
 					quadTextureSprite ="GFX_techtree_stripes"
 				}
-
-				# Column headers - pixel positions match gridboxtype layout:
-				# gridbox at x=140, slotsize=70. Col x=-1 -> px 70, x=1 -> px 210, x=3 -> px 350
-				instantTextBoxType = {
-					name = "airship_subtitle_light"
-					position = { x = 30 y = 55 }
-					font = "hoi_33"
-					borderSize = { x = 0 y = 0 }
-					text = "AIRSHIP_TITLE_LIGHT"
-					maxWidth = 130
-					maxHeight = 62
-					format = center
-					Orientation = "UPPER_LEFT"
-				}
-				instantTextBoxType = {
-					name = "airship_subtitle_medium"
-					position = { x = 170 y = 55 }
-					font = "hoi_33"
-					borderSize = { x = 0 y = 0 }
-					text = "AIRSHIP_TITLE_MEDIUM"
-					maxWidth = 130
-					maxHeight = 62
-					format = center
-					Orientation = "UPPER_LEFT"
-				}
-				instantTextBoxType = {
-					name = "airship_subtitle_heavy"
-					position = { x = 310 y = 55 }
-					font = "hoi_33"
-					borderSize = { x = 0 y = 0 }
-					text = "AIRSHIP_TITLE_HEAVY"
-					maxWidth = 130
-					maxHeight = 62
-					format = center
-					Orientation = "UPPER_LEFT"
-				}
 			}
 
-			## TECH GRID ##
-			# Layout: x=-1=Light | x=1=Medium | x=3=Heavy
-			#         y=0,2 = Medium T1/T2 only | y=4..10 = all three classes T3-T6
-			# Pixel math: gridbox_x=140, slotsize=70
-			#   col x=-1 -> 140+(-1*70)=70px  col x=1 -> 140+(1*70)=210px  col x=3 -> 350px
-			#   row y=0  -> 100px  y=2 -> 240px  y=4 -> 380px ... y=10 -> 800px
 			gridboxtype = {
 				name = "airship_techs"
 				position = { x = 140 y = 100 }
 				size = { width = 3000 height = 1200 }
 				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
+				format = "UP"
 			}
 		}
 
@@ -6454,7 +6411,7 @@ guiTypes = {
 			buttonType = {
 				position = { x = 912 y = 0 }
 				name = "airship_techs_folder_tab"
-				quadTextureSprite = "GFX_airship_techs_folder_tab"
+				quadTextureSprite = "GFX_zebra_folder_tab"
 				frame = 1
 				clicksound = ui_research_tab_air
 			}
@@ -7889,7 +7846,10 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "bonus"
-			position = { x = -1 y = -22 }
+			position = { 
+				x = -1 
+				y = -22 
+			}
 			textureFile = ""
 			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}

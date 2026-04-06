@@ -49,7 +49,7 @@ equipments = {
  	}
 
  	light_highfleet_equipment_0 = {
- 		year = 1001
+ 		year = 1005
 
  		archetype = light_highfleet_equipment
  		priority = 50

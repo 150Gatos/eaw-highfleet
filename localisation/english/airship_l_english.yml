@@ -1,0 +1,167 @@
+﻿l_english:
+
+ # Tech tree folder tab tooltip
+ airship_techs:0 "Airships"
+
+ # Folder column headers
+ AIRSHIP_TITLE_LIGHT:0 "Light Highfleet"
+ AIRSHIP_TITLE_MEDIUM:0 "Medium Highfleet"
+ AIRSHIP_TITLE_HEAVY:0 "Heavy Highfleet"
+
+ # -----------------------------------------------
+ # TIER 1 — Pre-Storm Age (Medium only)
+ # -----------------------------------------------
+ medium_highfleet_0:0 "Pre-Storm Highfleet"
+ medium_highfleet_0_desc:0 "The earliest airship hulls developed before the Storm Age. Lumbering but capable of carrying significant firepower."
+
+ medium_highfleet_c_0:0 "Pre-Storm Tank-Destroyer Fit"
+ medium_highfleet_c_0_desc:0 "Anti-armour guns adapted for mounting on early airship hulls."
+ medium_highfleet_b_0:0 "Pre-Storm Artillery Fit"
+ medium_highfleet_b_0_desc:0 "Heavy bombardment cannon configuration for early medium hulls."
+ medium_highfleet_a_0:0 "Pre-Storm Anti-Air Fit"
+ medium_highfleet_a_0_desc:0 "Early air-defence gun mounts fitted to pre-storm medium hulls."
+
+ # -----------------------------------------------
+ # TIER 2 — Storm Age (Medium only)
+ # -----------------------------------------------
+ storm_age_highfleet:0 "Storm-Age Highfleet"
+ storm_age_highfleet_desc:0 "Hulls developed during and immediately after the Storm Age. Reinforced against magical turbulence and equipped with improved propulsion."
+
+ medium_highfleet_c_1:0 "Storm-Age Tank-Destroyer Fit"
+ medium_highfleet_c_1_desc:0 "Improved anti-armour loadout for storm-age medium hulls."
+ medium_highfleet_b_1:0 "Storm-Age Artillery Fit"
+ medium_highfleet_b_1_desc:0 "Upgraded bombardment configuration taking advantage of storm-age hull capacity."
+ medium_highfleet_a_1:0 "Storm-Age Anti-Air Fit"
+ medium_highfleet_a_1_desc:0 "Improved air-defence fit for storm-age medium hulls."
+
+ # -----------------------------------------------
+ # TIER 3 — Early (Light / Medium / Heavy)
+ # -----------------------------------------------
+ early_light_highfleet:0 "Early Light Highfleet"
+ early_light_highfleet_desc:0 "The first true light-class airship hulls. Fast and manoeuvrable, suited to reconnaissance and rapid strikes."
+
+ early_light_highfleet_c:0 "Early Light TD Fit"
+ early_light_highfleet_c_desc:0 "Tank-destroyer armament on early light hulls."
+ early_light_highfleet_b:0 "Early Light Artillery Fit"
+ early_light_highfleet_b_desc:0 "Artillery configuration on early light hulls."
+ early_light_highfleet_a:0 "Early Light Anti-Air Fit"
+ early_light_highfleet_a_desc:0 "Anti-air configuration on early light hulls."
+
+ early_medium_highfleet:0 "Early Medium Highfleet"
+ early_medium_highfleet_desc:0 "Post-Storm medium hulls with refined armour and propulsion. The backbone of most highfleet forces."
+
+ early_medium_highfleet_c:0 "Early Medium TD Fit"
+ early_medium_highfleet_c_desc:0 "Tank-destroyer armament on early medium hulls."
+ early_medium_highfleet_b:0 "Early Medium Artillery Fit"
+ early_medium_highfleet_b_desc:0 "Artillery configuration on early medium hulls."
+ early_medium_highfleet_a:0 "Early Medium Anti-Air Fit"
+ early_medium_highfleet_a_desc:0 "Anti-air configuration on early medium hulls."
+
+ early_heavy_highfleet:0 "Early Heavy Highfleet"
+ early_heavy_highfleet_desc:0 "The first heavy-class airship hulls. Slow and expensive but capable of absorbing immense punishment and delivering devastating fire."
+
+ early_heavy_highfleet_c:0 "Early Heavy TD Fit"
+ early_heavy_highfleet_c_desc:0 "Tank-destroyer armament on early heavy hulls."
+ early_heavy_highfleet_b:0 "Early Heavy Artillery Fit"
+ early_heavy_highfleet_b_desc:0 "Artillery configuration on early heavy hulls."
+ early_heavy_highfleet_a:0 "Early Heavy Anti-Air Fit"
+ early_heavy_highfleet_a_desc:0 "Anti-air configuration on early heavy hulls."
+
+ # -----------------------------------------------
+ # TIER 4 — Basic (Light / Medium / Heavy)
+ # -----------------------------------------------
+ basic_light_highfleet:0 "Basic Light Highfleet"
+ basic_light_highfleet_desc:0 "Standardised light hulls with improved reliability and speed. Widely produced and easy to crew."
+
+ basic_light_highfleet_c:0 "Basic Light TD Fit"
+ basic_light_highfleet_c_desc:0 "Standardised tank-destroyer fit for basic light hulls."
+ basic_light_highfleet_b:0 "Basic Light Artillery Fit"
+ basic_light_highfleet_b_desc:0 "Standardised artillery fit for basic light hulls."
+ basic_light_highfleet_a:0 "Basic Light Anti-Air Fit"
+ basic_light_highfleet_a_desc:0 "Standardised anti-air fit for basic light hulls."
+
+ basic_medium_highfleet:0 "Basic Medium Highfleet"
+ basic_medium_highfleet_desc:0 "Mature medium-class hulls representing the established doctrine of the highfleet. Reliable and well-understood."
+
+ basic_medium_highfleet_c:0 "Basic Medium TD Fit"
+ basic_medium_highfleet_c_desc:0 "Standardised tank-destroyer fit for basic medium hulls."
+ basic_medium_highfleet_b:0 "Basic Medium Artillery Fit"
+ basic_medium_highfleet_b_desc:0 "Standardised artillery fit for basic medium hulls."
+ basic_medium_highfleet_a:0 "Basic Medium Anti-Air Fit"
+ basic_medium_highfleet_a_desc:0 "Standardised anti-air fit for basic medium hulls."
+
+ basic_heavy_highfleet:0 "Basic Heavy Highfleet"
+ basic_heavy_highfleet_desc:0 "Standardised heavy hulls with improved armour and more powerful engines. A fearsome sight on the battlefield."
+
+ basic_heavy_highfleet_c:0 "Basic Heavy TD Fit"
+ basic_heavy_highfleet_c_desc:0 "Standardised tank-destroyer fit for basic heavy hulls."
+ basic_heavy_highfleet_b:0 "Basic Heavy Artillery Fit"
+ basic_heavy_highfleet_b_desc:0 "Standardised artillery fit for basic heavy hulls."
+ basic_heavy_highfleet_a:0 "Basic Heavy Anti-Air Fit"
+ basic_heavy_highfleet_a_desc:0 "Standardised anti-air fit for basic heavy hulls."
+
+ # -----------------------------------------------
+ # TIER 5 — Advanced (Light / Medium / Heavy)
+ # -----------------------------------------------
+ advanced_light_highfleet:0 "Advanced Light Highfleet"
+ advanced_light_highfleet_desc:0 "Cutting-edge light hulls incorporating aetheric propulsion and hardened armour. Faster and more lethal than any predecessor."
+
+ advanced_light_highfleet_c:0 "Advanced Light TD Fit"
+ advanced_light_highfleet_c_desc:0 "Advanced tank-destroyer armament on advanced light hulls."
+ advanced_light_highfleet_b:0 "Advanced Light Artillery Fit"
+ advanced_light_highfleet_b_desc:0 "Advanced artillery configuration on advanced light hulls."
+ advanced_light_highfleet_a:0 "Advanced Light Anti-Air Fit"
+ advanced_light_highfleet_a_desc:0 "Advanced anti-air configuration on advanced light hulls."
+
+ advanced_medium_highfleet:0 "Advanced Medium Highfleet"
+ advanced_medium_highfleet_desc:0 "State-of-the-art medium hulls with aetheric systems and improved crew accommodations."
+
+ advanced_medium_highfleet_c:0 "Advanced Medium TD Fit"
+ advanced_medium_highfleet_c_desc:0 "Advanced tank-destroyer armament on advanced medium hulls."
+ advanced_medium_highfleet_b:0 "Advanced Medium Artillery Fit"
+ advanced_medium_highfleet_b_desc:0 "Advanced artillery configuration on advanced medium hulls."
+ advanced_medium_highfleet_a:0 "Advanced Medium Anti-Air Fit"
+ advanced_medium_highfleet_a_desc:0 "Advanced anti-air configuration on advanced medium hulls."
+
+ advanced_heavy_highfleet:0 "Advanced Heavy Highfleet"
+ advanced_heavy_highfleet_desc:0 "The most powerful heavy hulls yet constructed. Near-impervious to conventional weapons and capable of levelling fortifications from altitude."
+
+ advanced_heavy_highfleet_c:0 "Advanced Heavy TD Fit"
+ advanced_heavy_highfleet_c_desc:0 "Advanced tank-destroyer armament on advanced heavy hulls."
+ advanced_heavy_highfleet_b:0 "Advanced Heavy Artillery Fit"
+ advanced_heavy_highfleet_b_desc:0 "Advanced artillery configuration on advanced heavy hulls."
+ advanced_heavy_highfleet_a:0 "Advanced Heavy Anti-Air Fit"
+ advanced_heavy_highfleet_a_desc:0 "Advanced anti-air configuration on advanced heavy hulls."
+
+ # -----------------------------------------------
+ # TIER 6 — Modern (Light / Medium / Heavy)
+ # -----------------------------------------------
+ modern_light_highfleet:0 "Modern Light Highfleet"
+ modern_light_highfleet_desc:0 "The pinnacle of light-class airship design. These hulls represent a generation beyond anything seen in previous conflicts."
+
+ modern_light_highfleet_c:0 "Modern Light TD Fit"
+ modern_light_highfleet_c_desc:0 "Modern tank-destroyer armament on modern light hulls."
+ modern_light_highfleet_b:0 "Modern Light Artillery Fit"
+ modern_light_highfleet_b_desc:0 "Modern artillery configuration on modern light hulls."
+ modern_light_highfleet_a:0 "Modern Light Anti-Air Fit"
+ modern_light_highfleet_a_desc:0 "Modern anti-air configuration on modern light hulls."
+
+ modern_medium_highfleet:0 "Modern Medium Highfleet"
+ modern_medium_highfleet_desc:0 "The latest generation of medium hulls, incorporating every advancement accumulated across six tiers of development."
+
+ modern_medium_highfleet_c:0 "Modern Medium TD Fit"
+ modern_medium_highfleet_c_desc:0 "Modern tank-destroyer armament on modern medium hulls."
+ modern_medium_highfleet_b:0 "Modern Medium Artillery Fit"
+ modern_medium_highfleet_b_desc:0 "Modern artillery configuration on modern medium hulls."
+ modern_medium_highfleet_a:0 "Modern Medium Anti-Air Fit"
+ modern_medium_highfleet_a_desc:0 "Modern anti-air configuration on modern medium hulls."
+
+ modern_heavy_highfleet:0 "Modern Heavy Highfleet"
+ modern_heavy_highfleet_desc:0 "A flying fortress. The modern heavy hull is the apex of airship engineering — slow to build but near-impossible to destroy."
+
+ modern_heavy_highfleet_c:0 "Modern Heavy TD Fit"
+ modern_heavy_highfleet_c_desc:0 "Modern tank-destroyer armament on modern heavy hulls."
+ modern_heavy_highfleet_b:0 "Modern Heavy Artillery Fit"
+ modern_heavy_highfleet_b_desc:0 "Modern artillery configuration on modern heavy hulls."
+ modern_heavy_highfleet_a:0 "Modern Heavy Anti-Air Fit"
+ modern_heavy_highfleet_a_desc:0 "Modern anti-air configuration on modern heavy hulls."

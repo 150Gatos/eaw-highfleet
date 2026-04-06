@@ -1,32 +1,3 @@
-###################################################
-# Airship Module Categories & Slot Definitions
-# Place in: common/units/equipment/modules/airship_module_categories.txt
-###################################################
-
-# ── Module Categories ─────────────────────────────────────────────────────────
-# These are the slot types. Each module must reference one of these as its category.
-# Each slot on equipment must reference one or more of these in allowed_module_categories.
-
-equipment_module_categories = {
-
-    airship_main_gun_slot       # primary weapons battery
-    airship_secondary_slot      # secondary/broadside armament
-    airship_engine_slot         # propulsion system
-    airship_armor_slot          # hull plating / protection
-    airship_lift_slot           # buoyancy / lifting system
-    airship_navigation_slot     # sensors, rangefinders, comms
-    airship_aa_slot             # anti-air mounts
-    airship_crew_slot           # crew quarters, command facilities
-    airship_special_slot        # unique special equipment
-    airship_auxiliary_slot      # miscellaneous auxiliary systems
-}
-
-
-###################################################
-# Example Module Definitions
-# Place in: common/units/equipment/modules/airship_modules.txt
-###################################################
-
 equipment_modules = {
 
     # ── MAIN GUN MODULES ──────────────────────────────────────────────────────
@@ -35,7 +6,6 @@ equipment_modules = {
         category = airship_main_gun_slot
         sfx = sfx_ui_sd_module_gun
         abbreviation = "LB"
-
         add_stats = {
             soft_attack = 10
             hard_attack = 5
@@ -51,7 +21,6 @@ equipment_modules = {
         category = airship_main_gun_slot
         sfx = sfx_ui_sd_module_gun
         abbreviation = "HB"
-
         add_stats = {
             soft_attack = 18
             hard_attack = 12
@@ -59,7 +28,7 @@ equipment_modules = {
         }
         multiply_stats = {
             build_cost_ic = 1.15
-            maximum_speed = 0.95   # heavier guns slow it down
+            maximum_speed = 0.95
         }
         xp_cost = 2
     }
@@ -70,7 +39,6 @@ equipment_modules = {
         category = airship_secondary_slot
         sfx = sfx_ui_sd_module_gun
         abbreviation = "SG"
-
         add_stats = {
             soft_attack = 6
             hard_attack = 3
@@ -87,7 +55,6 @@ equipment_modules = {
         category = airship_engine_slot
         sfx = sfx_ui_sd_module_engine
         abbreviation = "SE"
-
         add_stats = {
             maximum_speed = 1
             reliability = -0.05
@@ -103,7 +70,6 @@ equipment_modules = {
         category = airship_engine_slot
         sfx = sfx_ui_sd_module_engine
         abbreviation = "AE"
-
         add_stats = {
             maximum_speed = 3
             reliability = 0.05
@@ -121,7 +87,6 @@ equipment_modules = {
         category = airship_armor_slot
         sfx = sfx_ui_sd_module_armor
         abbreviation = "LP"
-
         add_stats = {
             armor_value = 10
             defense = 2
@@ -137,7 +102,6 @@ equipment_modules = {
         category = airship_armor_slot
         sfx = sfx_ui_sd_module_armor
         abbreviation = "HP"
-
         add_stats = {
             armor_value = 25
             defense = 5
@@ -156,7 +120,6 @@ equipment_modules = {
         category = airship_lift_slot
         sfx = sfx_ui_sd_module_engine
         abbreviation = "GB"
-
         add_stats = {
             maximum_speed = 1
         }
@@ -170,7 +133,6 @@ equipment_modules = {
         category = airship_lift_slot
         sfx = sfx_ui_sd_module_engine
         abbreviation = "AL"
-
         add_stats = {
             maximum_speed = 2
             reliability = 0.03
@@ -187,9 +149,8 @@ equipment_modules = {
         category = airship_navigation_slot
         sfx = sfx_ui_sd_module_radio
         abbreviation = "BN"
-
         add_stats = {
-            reconnaissance = 1
+            breakthrough = 1
         }
         xp_cost = 1
     }
@@ -198,10 +159,8 @@ equipment_modules = {
         category = airship_navigation_slot
         sfx = sfx_ui_sd_module_radio
         abbreviation = "AN"
-
         add_stats = {
-            reconnaissance = 2
-            breakthrough = 2
+            breakthrough = 3
         }
         multiply_stats = {
             build_cost_ic = 1.08
@@ -215,7 +174,6 @@ equipment_modules = {
         category = airship_aa_slot
         sfx = sfx_ui_sd_module_gun
         abbreviation = "AA"
-
         add_stats = {
             air_attack = 15
             soft_attack = 2
@@ -232,7 +190,6 @@ equipment_modules = {
         category = airship_crew_slot
         sfx = sfx_ui_sd_module_radio
         abbreviation = "SC"
-
         add_stats = {
             reliability = 0.03
         }
@@ -243,7 +200,6 @@ equipment_modules = {
         category = airship_crew_slot
         sfx = sfx_ui_sd_module_radio
         abbreviation = "EC"
-
         add_stats = {
             reliability = 0.08
             breakthrough = 3
@@ -260,7 +216,6 @@ equipment_modules = {
         category = airship_special_slot
         sfx = sfx_ui_sd_module_gun
         abbreviation = "BB"
-
         add_stats = {
             soft_attack = 20
             hard_attack = 8
@@ -275,10 +230,8 @@ equipment_modules = {
         category = airship_special_slot
         sfx = sfx_ui_sd_module_radio
         abbreviation = "ST"
-
         add_stats = {
             breakthrough = 5
-            reconnaissance = 2
         }
         multiply_stats = {
             build_cost_ic = 1.08
@@ -292,7 +245,6 @@ equipment_modules = {
         category = airship_auxiliary_slot
         sfx = sfx_ui_sd_module_engine
         abbreviation = "FT"
-
         multiply_stats = {
             fuel_consumption = 0.85
             build_cost_ic = 1.05
@@ -304,7 +256,6 @@ equipment_modules = {
         category = airship_auxiliary_slot
         sfx = sfx_ui_sd_module_radio
         abbreviation = "RB"
-
         add_stats = {
             reliability = 0.05
             defense = 1
