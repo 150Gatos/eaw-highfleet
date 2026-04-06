@@ -49,5 +49,6 @@ tags={
 	"Map"
 }
 name="Equestria Clear Skies"
+dependencies = {"Equestria at War"}
 supported_version="1.17.*"
 remote_file_id="3701065759"
