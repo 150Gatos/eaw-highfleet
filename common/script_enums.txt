@@ -1008,5 +1008,9 @@ script_enum_equipment_bonus_type = {
 	medium_highfleet_equipment_c_1
 	medium_highfleet_equipment_c_2
 	medium_highfleet_equipment_c_3
-
+	heavy_highfleet_equipment_c
+	light_highfleet_equipment_c
+	medium_highfleet_equipment_4
+	medium_highfleet_equipment_5
+	medium_highfleet_equipment_c
 }

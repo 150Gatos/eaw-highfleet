@@ -1,5 +1,0 @@
-
-
-technology_tags = {
-    airship_techs
-}
