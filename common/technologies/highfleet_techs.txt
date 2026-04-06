@@ -110,7 +110,9 @@ technologies = {
             light_highfleet_spaa_battalion    
             light_highfleet_spaa_detachment 
         }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1005
         folder = { name = highfleet_techs }
@@ -131,7 +133,9 @@ technologies = {
             light_highfleet_spg_battalion    
             light_highfleet_spg_detachment 
         }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1005
         folder = { name = highfleet_techs }
@@ -152,7 +156,9 @@ technologies = {
             medium_highfleet_td_battalion    
             medium_highfleet_td_detachment 
         }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1005
         folder = { name = highfleet_techs }
@@ -169,7 +175,9 @@ technologies = {
     light_highfleet_a_1 = {
 
         enable_equipments = { light_highfleet_equipment_a_1 }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1009
         folder = { name = highfleet_techs }
@@ -186,7 +194,9 @@ technologies = {
     light_highfleet_b_1 = {
 
         enable_equipments = { light_highfleet_equipment_b_1 }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1009
         folder = { name = highfleet_techs }
@@ -203,7 +213,9 @@ technologies = {
     light_highfleet_c_1 = {
 
         enable_equipments = { light_highfleet_equipment_c_1 }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1009
         folder = { name = highfleet_techs }
@@ -220,7 +232,9 @@ technologies = {
     light_highfleet_a_2 = {
 
         enable_equipments = { light_highfleet_equipment_a_2 }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1012
         folder = { name = highfleet_techs }
@@ -237,7 +251,9 @@ technologies = {
     light_highfleet_b_2 = {
 
         enable_equipments = { light_highfleet_equipment_b_2 }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1012
         folder = { name = highfleet_techs }
@@ -254,7 +270,9 @@ technologies = {
     light_highfleet_c_2 = {
 
         enable_equipments = { light_highfleet_equipment_c_2 }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1012
         folder = { name = highfleet_techs }
@@ -271,7 +289,9 @@ technologies = {
     light_highfleet_a_3 = {
 
         enable_equipments = { light_highfleet_equipment_a_3 }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1014
         folder = { name = highfleet_techs }
@@ -288,7 +308,9 @@ technologies = {
     light_highfleet_b_3 = {
 
         enable_equipments = { light_highfleet_equipment_b_3 }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1012
         folder = { name = highfleet_techs }
@@ -305,7 +327,9 @@ technologies = {
     light_highfleet_c_3 = {
 
         enable_equipments = { light_highfleet_equipment_c_3 }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1014
         folder = { name = highfleet_techs }
@@ -454,7 +478,9 @@ technologies = {
             medium_highfleet_spaa_battalion    
             medium_highfleet_spaa_detachment 
         }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1005
         folder = { name = highfleet_techs }
@@ -475,7 +501,9 @@ technologies = {
             medium_highfleet_spg_battalion    
             medium_highfleet_spg_detachment 
         }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1005
         folder = { name = highfleet_techs }
@@ -496,7 +524,9 @@ technologies = {
             medium_highfleet_td_battalion    
             medium_highfleet_td_detachment 
         }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1005
         folder = { name = highfleet_techs }
@@ -513,7 +543,9 @@ technologies = {
     medium_highfleet_a_1 = {
 
         enable_equipments = { medium_highfleet_equipment_a_1 }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1009
         folder = { name = highfleet_techs }
@@ -530,7 +562,9 @@ technologies = {
     medium_highfleet_b_1 = {
 
         enable_equipments = { medium_highfleet_equipment_b_1 }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1009
         folder = { name = highfleet_techs }
@@ -547,7 +581,9 @@ technologies = {
     medium_highfleet_c_1 = {
 
         enable_equipments = { medium_highfleet_equipment_c_1 }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1009
         folder = { name = highfleet_techs }
@@ -564,7 +600,9 @@ technologies = {
     medium_highfleet_a_2 = {
 
         enable_equipments = { medium_highfleet_equipment_a_2 }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1012
         folder = { name = highfleet_techs }
@@ -581,7 +619,9 @@ technologies = {
     medium_highfleet_b_2 = {
 
         enable_equipments = { medium_highfleet_equipment_b_2 }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1012
         folder = { name = highfleet_techs }
@@ -598,7 +638,9 @@ technologies = {
     medium_highfleet_c_2 = {
 
         enable_equipments = { medium_highfleet_equipment_c_2 }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1012
         folder = { name = highfleet_techs }
@@ -615,7 +657,9 @@ technologies = {
     medium_highfleet_a_3 = {
 
         enable_equipments = { medium_highfleet_equipment_a_3 }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1014
         folder = { name = highfleet_techs }
@@ -632,7 +676,9 @@ technologies = {
     medium_highfleet_b_3 = {
 
         enable_equipments = { medium_highfleet_equipment_b_3 }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1012
         folder = { name = highfleet_techs }
@@ -649,7 +695,9 @@ technologies = {
     medium_highfleet_c_3 = {
 
         enable_equipments = { medium_highfleet_equipment_c_3 }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1014
         folder = { name = highfleet_techs }
@@ -755,7 +803,9 @@ technologies = {
             heavy_highfleet_spaa_battalion    
             heavy_highfleet_spaa_detachment 
         }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1005
         folder = { name = highfleet_techs }
@@ -776,7 +826,9 @@ technologies = {
             heavy_highfleet_spg_battalion    
             heavy_highfleet_spg_detachment 
         }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1005
         folder = { name = highfleet_techs }
@@ -797,7 +849,9 @@ technologies = {
             heavy_highfleet_td_battalion    
             heavy_highfleet_td_detachment 
         }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1005
         folder = { name = highfleet_techs }
@@ -814,7 +868,9 @@ technologies = {
     heavy_highfleet_a_1 = {
 
         enable_equipments = { heavy_highfleet_equipment_a_1 }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1009
         folder = { name = highfleet_techs }
@@ -831,7 +887,9 @@ technologies = {
     heavy_highfleet_b_1 = {
 
         enable_equipments = { heavy_highfleet_equipment_b_1 }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1009
         folder = { name = highfleet_techs }
@@ -848,7 +906,9 @@ technologies = {
     heavy_highfleet_c_1 = {
 
         enable_equipments = { heavy_highfleet_equipment_c_1 }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1009
         folder = { name = highfleet_techs }
@@ -865,7 +925,9 @@ technologies = {
     heavy_highfleet_a_2 = {
 
         enable_equipments = { heavy_highfleet_equipment_a_2 }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1012
         folder = { name = highfleet_techs }
@@ -882,7 +944,9 @@ technologies = {
     heavy_highfleet_b_2 = {
 
         enable_equipments = { heavy_highfleet_equipment_b_2 }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1012
         folder = { name = highfleet_techs }
@@ -899,7 +963,9 @@ technologies = {
     heavy_highfleet_c_2 = {
 
         enable_equipments = { heavy_highfleet_equipment_c_2 }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1012
         folder = { name = highfleet_techs }
@@ -916,7 +982,9 @@ technologies = {
     heavy_highfleet_a_3 = {
 
         enable_equipments = { heavy_highfleet_equipment_a_3 }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1014
         folder = { name = highfleet_techs }
@@ -933,7 +1001,9 @@ technologies = {
     heavy_highfleet_b_3 = {
 
         enable_equipments = { heavy_highfleet_equipment_b_3 }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1012
         folder = { name = highfleet_techs }
@@ -950,7 +1020,9 @@ technologies = {
     heavy_highfleet_c_3 = {
 
         enable_equipments = { heavy_highfleet_equipment_c_3 }
-
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
         research_cost = 1
         start_year = 1014
         folder = { name = highfleet_techs }
@@ -973,6 +1045,7 @@ technologies = {
             super_heavy_airship_fleet      
             super_heavy_airship_detachment
         }
+        
         path = { leads_to_tech = super_heavy_highfleet_1 research_cost_coeff = 1 }
 
         research_cost = 3
