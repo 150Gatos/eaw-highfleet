@@ -105,7 +105,7 @@ technologies = {
 
     
     
-        light_highfleet_a_0 = {
+    light_highfleet_a_0 = {
 
         on_research_complete_limit = { NOT = { has_dlc = "No Step Back" } }
         on_research_complete = { enable_equipments = { light_highfleet_equipment_a_0 } }
