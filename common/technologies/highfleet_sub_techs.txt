@@ -1,0 +1,1059 @@
+technologies = {
+
+
+##light variants
+
+    light_highfleet_a_0 = {
+
+
+        on_research_complete = { enable_equipments = { light_highfleet_equipment_a_0 } }
+        enable_subunits = {
+            light_highfleet_spaa_battalion    
+            light_highfleet_spaa_detachment 
+        }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1005
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+    light_highfleet_b_0 = {
+
+
+        on_research_complete = { enable_equipments = { light_highfleet_equipment_b_0 } }
+        enable_subunits = {
+            light_highfleet_spg_battalion    
+            light_highfleet_spg_detachment 
+        }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1005
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+ 
+    light_highfleet_c_0 = {
+
+
+        on_research_complete = { enable_equipments = { light_highfleet_equipment_c_0 } }
+        enable_subunits = {
+            light_highfleet_td_battalion    
+            light_highfleet_td_detachment 
+        }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1005
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+        light_highfleet_a_1 = {
+
+
+        on_research_complete = { enable_equipments = { light_highfleet_equipment_a_1 } }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1009
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+        light_highfleet_b_1 = {
+
+
+        on_research_complete = { enable_equipments = { light_highfleet_equipment_b_1 } }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1009
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+
+    light_highfleet_c_1 = {
+
+        enable_equipments = { light_highfleet_equipment_c_1 }
+        allow = {
+        NOT = { has_dlc = "No Step Back" }
+        }
+        research_cost = 1
+        start_year = 1009
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes} }
+    }
+    
+    light_highfleet_a_2 = {
+
+
+        on_research_complete = { enable_equipments = { light_highfleet_equipment_a_2 } }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1012
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+    light_highfleet_b_2 = {
+
+
+        on_research_complete = { enable_equipments = { light_highfleet_equipment_b_2 } }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1012
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    } 
+
+    light_highfleet_c_2 = {
+        on_research_complete = { enable_equipments = { light_highfleet_equipment_c_2 } }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1012
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+    light_highfleet_a_3 = {
+        on_research_complete = { enable_equipments = { light_highfleet_equipment_a_3 } }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1014
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+    light_highfleet_b_3 = {
+        on_research_complete = { enable_equipments = { light_highfleet_equipment_b_3 } }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1014
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+    light_highfleet_c_3 = {
+        on_research_complete = { enable_equipments = { light_highfleet_equipment_c_3 } }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1014
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+##medium variants
+
+    medium_highfleet_a_0 = {
+
+
+        on_research_complete = { enable_equipments = { medium_highfleet_equipment_a_0 } }
+        enable_subunits = {
+            medium_highfleet_spaa_battalion    
+            medium_highfleet_spaa_detachment 
+        }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 975
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+
+    medium_highfleet_b_0 = {
+
+
+        on_research_complete = { enable_equipments = { medium_highfleet_equipment_b_0 } }
+        enable_subunits = {
+            medium_highfleet_spg_battalion    
+            medium_highfleet_spg_detachment 
+        }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 975
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+ 
+    medium_highfleet_c_0 = {
+
+
+        on_research_complete = { enable_equipments = { medium_highfleet_equipment_c_0 } }
+        enable_subunits = {
+            medium_highfleet_td_battalion    
+            medium_highfleet_td_detachment 
+        }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 975
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+    medium_highfleet_a_1 = {
+        on_research_complete = { enable_equipments = { medium_highfleet_equipment_a_1 } }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 995
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+    medium_highfleet_b_1 = {
+        on_research_complete = { enable_equipments = { medium_highfleet_equipment_b_1 } }
+        enable_subunits = {
+            medium_highfleet_spg_battalion    
+            medium_highfleet_spg_detachment 
+        }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 995
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+ 
+    medium_highfleet_c_1 = {
+        on_research_complete = { enable_equipments = { medium_highfleet_equipment_c_1 } }
+        enable_subunits = {
+            medium_highfleet_td_battalion    
+            medium_highfleet_td_detachment 
+        }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 995
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+    medium_highfleet_a_2 = {
+        on_research_complete = { enable_equipments = { medium_highfleet_equipment_a_2 } }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1005
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+    medium_highfleet_b_2 = {
+        on_research_complete = { enable_equipments = { medium_highfleet_equipment_b_2 } }
+        enable_subunits = {
+            medium_highfleet_spg_battalion    
+            medium_highfleet_spg_detachment 
+        }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1005
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+ 
+    medium_highfleet_c_2 = {
+        on_research_complete = { enable_equipments = { medium_highfleet_equipment_c_2 } }
+        enable_subunits = {
+            medium_highfleet_td_battalion    
+            medium_highfleet_td_detachment 
+        }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1005
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+    medium_highfleet_a_3 = {
+        on_research_complete = { enable_equipments = { medium_highfleet_equipment_a_3 } }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1009
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+    medium_highfleet_b_3 = {
+        on_research_complete = { enable_equipments = { medium_highfleet_equipment_b_3 } }
+        enable_subunits = {
+            medium_highfleet_spg_battalion    
+            medium_highfleet_spg_detachment 
+        }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1009
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+ 
+    medium_highfleet_c_3 = {
+        on_research_complete = { enable_equipments = { medium_highfleet_equipment_c_3 } }
+        enable_subunits = {
+            medium_highfleet_td_battalion    
+            medium_highfleet_td_detachment 
+        }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1009
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+    medium_highfleet_a_4 = {
+        on_research_complete = { enable_equipments = { medium_highfleet_equipment_a_4 } }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1012
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+    medium_highfleet_b_4 = {
+        on_research_complete = { enable_equipments = { medium_highfleet_equipment_b_4 } }
+        enable_subunits = {
+            medium_highfleet_spg_battalion    
+            medium_highfleet_spg_detachment 
+        }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1012
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+ 
+    medium_highfleet_c_4 = {
+        on_research_complete = { enable_equipments = { medium_highfleet_equipment_c_4 } }
+        enable_subunits = {
+            medium_highfleet_td_battalion    
+            medium_highfleet_td_detachment 
+        }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1012
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+    medium_highfleet_a_5 = {
+        on_research_complete = { enable_equipments = { medium_highfleet_equipment_a_5 } }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1014
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+    medium_highfleet_b_5 = {
+        on_research_complete = { enable_equipments = { medium_highfleet_equipment_b_5 } }
+        enable_subunits = {
+            medium_highfleet_spg_battalion    
+            medium_highfleet_spg_detachment 
+        }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1014
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+ 
+    medium_highfleet_c_5 = {
+        on_research_complete = { enable_equipments = { medium_highfleet_equipment_c_5 } }
+        enable_subunits = {
+            medium_highfleet_td_battalion    
+            medium_highfleet_td_detachment 
+        }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1016
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+    medium_highfleet_a_6 = {
+        on_research_complete = { enable_equipments = { medium_highfleet_equipment_a_6 } }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1016
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+    medium_highfleet_b_6 = {
+        on_research_complete = { enable_equipments = { medium_highfleet_equipment_b_6 } }
+        enable_subunits = {
+            medium_highfleet_spg_battalion    
+            medium_highfleet_spg_detachment 
+        }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1016
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+ 
+    medium_highfleet_c_6 = {
+        on_research_complete = { enable_equipments = { medium_highfleet_equipment_c_6 } }
+        enable_subunits = {
+            medium_highfleet_td_battalion    
+            medium_highfleet_td_detachment 
+        }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1016
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+##heavy variants
+
+    heavy_highfleet_a_0 = {
+        on_research_complete = { enable_equipments = { heavy_highfleet_equipment_a_0 } }
+        enable_subunits = {
+            heavy_highfleet_spaa_battalion    
+            heavy_highfleet_spaa_detachment 
+        }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1005
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+
+    heavy_highfleet_b_0 = {
+        on_research_complete = { enable_equipments = { heavy_highfleet_equipment_b_0 } }
+        enable_subunits = {
+            heavy_highfleet_spg_battalion    
+            heavy_highfleet_spg_detachment 
+        }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1005
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+ 
+    heavy_highfleet_c_0 = {
+        on_research_complete = { enable_equipments = { heavy_highfleet_equipment_c_0 } }
+        enable_subunits = {
+            heavy_highfleet_td_battalion    
+            heavy_highfleet_td_detachment 
+        }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1005
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+    heavy_highfleet_a_1 = {
+        on_research_complete = { enable_equipments = { heavy_highfleet_equipment_a_1 } }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1009
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+    medium_highfleet_b_1 = {
+        on_research_complete = { enable_equipments = { heavy_highfleet_equipment_b_1 } }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1009
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+ 
+    heavy_highfleet_c_1 = {
+        on_research_complete = { enable_equipments = { heavy_highfleet_equipment_c_1 } }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1009
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+    heavy_highfleet_a_2 = {
+        on_research_complete = { enable_equipments = { heavy_highfleet_equipment_a_2 } }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1012
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+    heavy_highfleet_b_2 = {
+        on_research_complete = { enable_equipments = { heavy_highfleet_equipment_b_2 } }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1012
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+ 
+    heavy_highfleet_c_2 = {
+        on_research_complete = { enable_equipments = { heavy_highfleet_equipment_c_2 } }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1012
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+    heavy_highfleet_a_3 = {
+        on_research_complete = { enable_equipments = { heavy_highfleet_equipment_a_3 } }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1014
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+    heavy_highfleet_b_3 = {
+        on_research_complete = { enable_equipments = { heavy_highfleet_equipment_b_3 } }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1014
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+ 
+    heavy_highfleet_c_3 = {
+        on_research_complete = { enable_equipments = { heavy_highfleet_equipment_c_3 } }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1014
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+##super_heavy variants
+
+        super_heavy_highfleet_a_0 = {
+        on_research_complete = { enable_equipments = { super_heavy_highfleet_equipment_a_0 } }
+        enable_subunits = {
+            super_heavy_highfleet_spaa_battalion    
+            super_heavy_highfleet_spaa_detachment 
+        }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1009
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+
+
+
+    super_heavy_highfleet_b_0 = {
+        on_research_complete = { enable_equipments = { super_heavy_highfleet_equipment_b_0 } }
+        enable_subunits = {
+            super_heavy_highfleet_spg_battalion    
+            super_heavy_highfleet_spg_detachment 
+        }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1009
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+ 
+    super_heavy_highfleet_c_0 = {
+        on_research_complete = { enable_equipments = { super_heavy_highfleet_equipment_c_0 } }
+        enable_subunits = {
+            super_heavy_highfleet_td_battalion    
+            super_heavy_highfleet_td_detachment 
+        }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1009
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+
+    super_heavy_highfleet_a_1 = {
+        on_research_complete = { enable_equipments = { super_heavy_highfleet_equipment_a_1 } }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1012
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+
+    medium_highfleet_b_1 = {
+        on_research_complete = { enable_equipments = { super_heavy_highfleet_equipment_b_1 } }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1012
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+ 
+    super_heavy_highfleet_c_1 = {
+        on_research_complete = { enable_equipments = { super_heavy_highfleet_equipment_c_1 } }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1012
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+
+    super_heavy_highfleet_a_2 = {
+        on_research_complete = { enable_equipments = { super_heavy_highfleet_equipment_a_2 } }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1014
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+
+
+    super_heavy_highfleet_b_2 = {
+        on_research_complete = { enable_equipments = { super_heavy_highfleet_equipment_b_2 } }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1014
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+ 
+    super_super_heavy_highfleet_c_2 = {
+        on_research_complete = { enable_equipments = { super_heavy_highfleet_equipment_c_2 } }
+        visible = { NOT = { has_dlc = "No Step Back" } }
+        allow = { NOT = { has_dlc = "No Step Back" } }
+        research_cost = 0.8
+        start_year = 1014
+        folder = { name = highfleet_techs }
+        categories = {
+            highfleet_category
+        }
+        special_project_specialization = { specialization_land }
+        ai_will_do = {
+            factor = 1
+            modifier = { factor = 2 is_major = yes }
+        }
+    }
+    }
+
+
